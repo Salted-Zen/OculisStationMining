@@ -33,7 +33,6 @@
 	cost = 4
 	path = /obj/item/organ/cyberimp/chest/nutriment
 
-/* // IRIS EDIT START - NO
 /datum/augment_item/implant/chest/optical_camo
 	name = "Optical Camouflage Implant"
 	cost = 9
@@ -43,8 +42,6 @@
 	name = "Internal Health Analyzer"
 	cost = 6
 	path = /obj/item/organ/cyberimp/chest/scanner/lite
-
-*/ // IRIS EDIT END
 
 //LEFT ARM IMPLANTS
 /datum/augment_item/implant/l_arm

@@ -206,8 +206,6 @@ ADMIN_VERB(stealth, R_STEALTH, "Stealth Mode", "Toggle stealth.", ADMIN_CATEGORY
 
 	BLACKBOX_LOG_ADMIN_VERB("Stealth Mode")
 
-#define STEALTH_MODE_TRAIT "stealth_mode"
-
 /client/proc/enable_stealth_mode(new_key, source)
 	if (!new_key)
 		new_key = ckeyEx(stripped_input(usr, "Enter your desired display name.", "Fake Key", key, 26))
