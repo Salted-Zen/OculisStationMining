@@ -244,3 +244,9 @@
   - bugfix: Fixes Kobold Kubes spawning unbutcherable Kobolds
   - code_imp: Changed species name so it's easier to tell which Kobold is primitive
       and which isn't
+2026-05-12:
+  ParboleumLoyce:
+  - rscadd: Added the cargo synth medipens to the mining vendor
+  Spacemanspark:
+  - bugfix: Characters with the 'mute' quirk/trait can now use the 'Do' command as
+      intended.
