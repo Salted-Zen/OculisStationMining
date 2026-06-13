@@ -1,10 +1,10 @@
 //This file contains the three backpacks made specifically for shaft miners!
 
-/obj/item/storage/backpack/rockspider //three slots, can only hold mining guns
+/obj/item/storage/backpack/rockspider //three slots, can only hold mining guns and PKAs
 	name = "Rockspider Pack"
 	desc = "A surprisingly flexible and durable bag, capable of carrying up to three mining guns at once, for those who prowl the wastes with a passion for marksmanship. Due to its flexibility, it doesn't interfere with movement like most bags when paired with a satchel."
-	icon = 'modular_oculis/modules/saltmining/icons/Backpack_item.dmi'
-	worn_icon = 'modular_oculis/modules/saltmining/icons/Backpack_worn.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/backpack_item.dmi'
+	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "rockspider"
 	inhand_icon_state = "backpack"
 	satchelslowdown = 0
@@ -36,8 +36,8 @@
 /obj/item/storage/backpack/ashduelist //two slots, can hold any crusher or mining guns
 	name = "Ashen Duelist Pack"
 	desc = "A bag with a mount and holster, capable of carrying any crusher type weapon and a gun, for the aspiring duelist who needs a bit more than just a blade. Due to its flexibility, it doesn't interfere with movement like most bags when paired with a satchel."
-	icon = 'modular_oculis/modules/saltmining/icons/Backpack_item.dmi'
-	worn_icon = 'modular_oculis/modules/saltmining/icons/Backpack_worn.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/backpack_item.dmi'
+	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "ashenduelist"
 	inhand_icon_state = "backpack"
 	satchelslowdown = 0
@@ -75,8 +75,8 @@
 /obj/item/storage/backpack/trenchjockey //has 14 slots but can only hold wasteland gun ammo
 	name = "Trench Jockey Pack"
 	desc = "A exceptionally spacious bag full of slots and pouches for different kinds of ammunition, for those who really need more than just one extra round. Despite its weight, it fits incredibly well with a satchel, and does not hinder your movement as a regular backpack would."
-	icon = 'modular_oculis/modules/saltmining/icons/Backpack_item.dmi'
-	worn_icon = 'modular_oculis/modules/saltmining/icons/Backpack_worn.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/backpack_item.dmi'
+	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "trenchjockey"
 	inhand_icon_state = "backpack"
 	satchelslowdown = 0
