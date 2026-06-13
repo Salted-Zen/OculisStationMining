@@ -285,7 +285,8 @@
 			if(1) //undo random crit damage
 				force -= random_crit_damage
 			else
-				//nothing happens
+				return FALSE
+	return FALSE
 
 //--------------------------------------------------------------------------//
 //--------------------------------------------------------------------------//
