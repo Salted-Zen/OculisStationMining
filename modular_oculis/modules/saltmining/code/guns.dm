@@ -17,7 +17,7 @@ THOR RIFLE
 /obj/item/gun/energy/recharge/kinetic_accelerator/variant/shockwave
 	name = "proto-kinetic shockwave"
 	desc = "A specialized PKA frame designed to accept an overclocked version of the AOE modkit."
-	icon = 'modular_oculis/modules/saltmining/icons/Gun_item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/gun_item.dmi'
 	icon_state = "kineticshockwave"
 	base_icon_state = "kineticshockwave"
 	recharge_time = 2 SECONDS
@@ -73,7 +73,7 @@ THOR RIFLE
 /obj/item/gun/ballistic/automatic/proto/pksmg
 	name = "'Rapier' Mining Smg'"
 	desc = "The 'Rapier' Mining Smg is a fully automatic Smg made specifically for shaft miners, in a compact package, for the lowest price."
-	icon = 'modular_oculis/modules/saltmining/icons/Gun_item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/gun_item.dmi'
 	icon_state = "pksmg"
 	burst_size = 1
 	actions_types = list()
@@ -102,7 +102,7 @@ THOR RIFLE
 	name = "'Rapier' Mining SMG Case"
 	desc = "A case containing a 'Rapier' Mining SMG and three magazines. Designed for full auto but has limited ammo.\
 	This box was not designed (somehow) to properly store its contents, and should instead be emptied and dissassembled immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_BULKY
@@ -134,8 +134,8 @@ THOR RIFLE
 	inhand_icon_state = "protokshotgun"
 	worn_icon = 'modular_oculis/modules/saltmining/icons/gun_worn.dmi'
 	worn_icon_state = "protokshotgun"
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Left_Hand.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
 	recoil = 2
 	force = 20
 	inhand_x_dimension = 32
@@ -159,7 +159,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/shotgun/bigcase //box
 	name = "'Slayer' Shotgun Case"
 	desc = "A special and totally original gun case that contains a 'Slayer' Boomstick, eight shells of Rockbreaker, and four shells of 'Slayer' Magnum Buckshot. The box is not designed to properly store its contents, and should be emptied and recycled immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_BULKY
@@ -307,7 +307,7 @@ THOR RIFLE
 	worn_icon_state = "protokshotgunauto"
 	icon_state = "protokshotgunauto"
 	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	burst_size = 1
 	fire_delay = 0
@@ -332,7 +332,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/autoshotgun/bigcase //box containing the actual gun and a few spare mags for sale
 	name = "'Fenrir' Shotgun case"
 	desc = "A mining gun case containing a 20. gauge Fenrir automatic shotgun and three spare magazines. It is not designed to store its contents properly, and should be emptied and disposed of immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	icon_state = "miner_case"
@@ -362,8 +362,8 @@ THOR RIFLE
 	top off and reload using stripper clips. Some have called its designer a 'Sadistic Asshole' for designing it without a swappable magazine."
 	icon = 'modular_oculis/modules/saltmining/icons/gun_item_wide.dmi'
 	worn_icon = 'modular_oculis/modules/saltmining/icons/gun_worn.dmi'
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Left_Hand.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
 	icon_state = "kineticlmg"
 	inhand_icon_state = "kineticlmg"
 	base_icon_state = "kineticlmg"
@@ -387,7 +387,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/kineticlmg/bigcase //box containing the LMG and a box of extra bullets to get one reload
 	name = "'Hellhound' Mining LMG case"
 	desc = "A special and totally original gun case that contains a 'Hellhound' Mining LMG, and a box of spare rounds to refill it. It is not designed to store its contents properly, and should be emptied and disposed of immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_BULKY
@@ -419,8 +419,8 @@ THOR RIFLE
 	slot_flags = ITEM_SLOT_BACK
 	icon = 'modular_oculis/modules/saltmining/icons/gun_item_wide.dmi'
 	worn_icon = 'modular_oculis/modules/saltmining/icons/gun_worn.dmi'
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Left_Hand.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
 	inhand_icon_state = "fatmac"
 	worn_icon_state = "fatmac"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/minerjdj
@@ -438,7 +438,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/minerjdj/bigcase //box containing the actual gun for sale
 	name = ".950 JDJ 'Thor' Rifle case"
 	desc = "A pretty redundant gun case that only contains the .950 JDJ Kinetic 'Thor' Rifle... contains no spare ammo, so make your one shot count or buy some more bullets. It is not designed to store its contents properly, and should be emptied and disposed of immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_BULKY
