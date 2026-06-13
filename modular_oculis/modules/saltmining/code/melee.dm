@@ -271,21 +271,15 @@
 	var/crit = rand(1,critchance)
 	if(faction_check(targetfaction, list(FACTION_MINING, FACTION_BOSS)))
 		force += lavafauna_bonus
-		switch(crit)
-			if(1) //RANDOM CRIT!!!
-				force += random_crit_damage
-				playsound(user, 'sound/items/lead_pipe_hit.ogg', 100, TRUE)
-				to_chat(user, "<font color='green'>CRITICAL HIT!!!</font>")
-			else
-				//nothing happens
+		if(crit == 1) //RANDOM CRIT!!!
+			force += random_crit_damage
+			playsound(user, 'sound/items/lead_pipe_hit.ogg', 100, TRUE)
+			to_chat(user, "<font color='green'>CRITICAL HIT!!!</font>")
 	. = ..()
 	if(faction_check(targetfaction, list(FACTION_MINING, FACTION_BOSS))) //we then run through again and fix the damage
 		force -= lavafauna_bonus
-		switch(crit)
-			if(1) //undo random crit damage
-				force -= random_crit_damage
-			else
-				return FALSE
+		if(crit == 1) //undo random crit damage
+			force -= random_crit_damage
 	return FALSE
 
 //--------------------------------------------------------------------------//
