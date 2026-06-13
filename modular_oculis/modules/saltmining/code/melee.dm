@@ -6,7 +6,7 @@
 /obj/item/kinetic_crusher/pilebunker
 	icon_state = "pb_spike"
 	inhand_icon_state = "pb_spike"
-	icon = 'modular_oculis/modules/saltmining/icons/bunker_Item_64x.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/bunker_item_64x.dmi'
 	lefthand_file = 'modular_oculis/modules/saltmining/icons/melee_left_hand.dmi'
 	righthand_file = 'modular_oculis/modules/saltmining/icons/melee_right_hand.dmi'
 	name = "proto-kinetic pile bunker"
@@ -151,8 +151,9 @@
 /obj/item/kinetic_crusher/sickle
 	icon_state = "crushersickle"
 	inhand_icon_state = "crushersickle"
-	worn_icon_state = "crushersickle"
-	icon = 'modular_oculis/modules/saltmining/icons/Melee_Item.dmi'
+	worn_icon_state = "crushersickle_belt"
+	icon = 'modular_oculis/modules/saltmining/icons/melee_item.dmi'
+	worn_icon = 'modular_oculis/modules/saltmining/icons/melee_item.dmi' //this is stored in the Melee items file even though its a worn sprite, simply because its the ONLY weapon worn sprite for melees
 	lefthand_file = 'modular_oculis/modules/saltmining/icons/melee_left_hand.dmi'
 	righthand_file = 'modular_oculis/modules/saltmining/icons/melee_right_hand.dmi'
 	name = "proto-kinetic sickle"
@@ -242,7 +243,7 @@
 /obj/item/shovel/gardener
 	name = "'Gardener' Tactical Shovel"
 	desc = "A specially designed shovel for digging extra fast, and tactically caving in the skulls of the local fauna. Actually its not that good at that but you can certainly try..."
-	icon = 'modular_oculis/modules/saltmining/icons/Melee_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/melee_item.dmi'
 	lefthand_file = 'modular_oculis/modules/saltmining/icons/melee_left_hand.dmi'
 	righthand_file = 'modular_oculis/modules/saltmining/icons/melee_right_hand.dmi'
 	hitsound = 'modular_oculis/modules/saltmining/sound/shovelthwack.ogg'
@@ -290,9 +291,9 @@
 /obj/item/kinetic_crusher/pilebunker/looong //does not need to mark people :trollface:
 	icon_state = "THEpilebunker_spike"
 	inhand_icon_state = "THEpilebunker_spike"
-	icon = 'modular_oculis/modules/saltmining/icons/Meme_Bunker_256x32.dmi'
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Meme_Bunker_Left_Hand.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Meme_Bunker_Right_Hand.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/meme_bunker_256x32.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/meme_bunker_left_hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/meme_bunker_right_hand.dmi'
 	name = "Slightly longer than usual pilebunker"
 	desc = "A significantly more destructive pilebunker that can mark and obliterate people without needing to mark targets. Unleash the truth with the almighty truthbunker."
 	force_wielded = 100000

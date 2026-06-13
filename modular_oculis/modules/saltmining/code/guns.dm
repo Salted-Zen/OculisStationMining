@@ -201,8 +201,8 @@ THOR RIFLE
 	but just knowing that we will one day fuels me with the strength to keep marching forward. I hope you recieve this, it's a custom design I have been working on just for you, so you may always have me at your side. - Your dearest brother' \
 	It seems the message and the shotgun never made it to his sister..."
 	icon = 'modular_oculis/modules/saltmining/icons/gun_item.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Left_Hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
 	inhand_x_dimension = 32
 	inhand_y_dimension = 32
 	fire_sound = 'modular_nova/modules/modular_weapons/sounds/shotgun_heavy.ogg'
@@ -212,6 +212,7 @@ THOR RIFLE
 	inhand_icon_state = "goliathhunter"
 	icon_state = "goliathhunter"
 	bolt_wording = "charging handle"
+	slot_flags = NONE //Keep it in your bag
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/com/compact/goliathhunter
 	w_class = WEIGHT_CLASS_NORMAL
 	weapon_weight = WEAPON_MEDIUM
@@ -244,7 +245,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/govmining/bigcase
 	name = "Kinetic 'Duster' Revolver Case"
 	desc = "A case containing a 'Duster' Mining revolver and three speedloaders. The box is not designed to store its contents properly, and thus should be emptied and disposed of immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_BULKY
@@ -277,8 +278,8 @@ THOR RIFLE
 	I miss you, may this pistol help you to never forget about me, I made it just for you. - Your dearest sister' \
 	It seems the message and pistol never made it to her brother..."
 	icon = 'modular_oculis/modules/saltmining/icons/gun_item.dmi'
-	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Left_Hand.dmi'
+	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
 	icon_state = "venator"
 	inhand_icon_state = "venator"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/govmining/venator
@@ -305,7 +306,7 @@ THOR RIFLE
 	worn_icon = 'modular_oculis/modules/saltmining/icons/gun_worn.dmi'
 	worn_icon_state = "protokshotgunauto"
 	icon_state = "protokshotgunauto"
-	lefthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Left_Hand.dmi'
+	lefthand_file = 'modular_oculis/modules/saltmining/icons/gun_left_hand.dmi'
 	righthand_file = 'modular_oculis/modules/saltmining/icons/Gun_Right_Hand.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	burst_size = 1
