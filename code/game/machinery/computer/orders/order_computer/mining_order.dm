@@ -22,6 +22,7 @@
 		CATEGORY_CONSUMABLES,
 		CATEGORY_TOYS_DRONE,
 		CATEGORY_PKA,
+		CATEGORY_WASTELAND_GUNS, //OCULIS EDIT - USES A CUSTOM CATEGORY BECAUSE THERE ARE SO MANY GUNS. CHECK SALT MINING FOR THE CONTENTS OF THIS CATEGORY.
 	)
 	blackbox_key = "mining"
 	announcement_line = "A shaft miner has ordered equipment which will arrive on the cargo shuttle! Please make sure it gets to them as soon as possible!"

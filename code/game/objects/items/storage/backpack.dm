@@ -27,6 +27,7 @@
 	drop_sound = 'sound/items/handling/backpack/backpack_drop1.ogg'
 	equip_sound = 'sound/items/equip/backpack_equip.ogg'
 	sound_vary = TRUE
+	var/satchelslowdown = 1.5 //OCULIS EDIT - The value at which slowdown is applied if this backpack is worn with a satchel, see Salt Mining module for more info
 
 /obj/item/storage/backpack/Initialize(mapload)
 	. = ..()
@@ -37,7 +38,7 @@
 	if(slot == ITEM_SLOT_BACK)
 		var/obj/item/storage/backpack/satchel/worn_satchel = user.get_item_by_slot(ITEM_SLOT_BELT)
 		if(istype(worn_satchel) && HAS_TRAIT(user, TRAIT_BELT_SATCHEL))
-			slowdown = 1.5
+			slowdown = satchelslowdown //OCULIS EDIT - Use the set variable on the backpack to determine slowdown, see Salt Mining module for more info (Originally hard set to 1.5)
 			user.update_equipment_speed_mods()
 
 /obj/item/storage/backpack/dropped(mob/user, silent)
@@ -319,7 +320,7 @@
 		ADD_TRAIT(user, TRAIT_BELT_SATCHEL, CLOTHING_TRAIT)
 		var/obj/item/storage/backpack/worn_backpack = user.get_item_by_slot(ITEM_SLOT_BACK)
 		if(istype(worn_backpack))
-			worn_backpack.slowdown = 1.5
+			worn_backpack.slowdown = worn_backpack.satchelslowdown //OCULIS EDIT - Use the backpacks satchelslowdown variable for slowdown, see Salt Mining Module for more info (Originally was hard set to just 1.5)
 			user.update_equipment_speed_mods()
 
 /obj/item/storage/backpack/satchel/dropped(mob/user, silent)
