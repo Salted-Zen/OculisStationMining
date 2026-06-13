@@ -1,6 +1,6 @@
 //This file contains the three backpacks made specifically for shaft miners!
 
-/obj/item/storage/backpack/rockspider //three slots, can only hold mining guns and PKAs
+/obj/item/storage/backpack/rockspider //three slots, can only hold mining guns and PKAs, nothing else
 	name = "Rockspider Pack"
 	desc = "A surprisingly flexible and durable bag, capable of carrying up to three mining guns at once, for those who prowl the wastes with a passion for marksmanship. Due to its flexibility, it doesn't interfere with movement like most bags when paired with a satchel."
 	icon = 'modular_oculis/modules/saltmining/icons/backpack_item.dmi'
@@ -115,38 +115,3 @@
 	))
 
 	atom_storage.max_total_storage = 100
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
