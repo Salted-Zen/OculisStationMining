@@ -35,7 +35,7 @@ THOR RIFLE
 /obj/item/ammo_box/magazine/pksmgmag
 	name = "'Rapier' magazine"
 	desc = "A single magazine for the 'Rapier'."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "pksmgmag"
 	base_icon_state = "pksmgmag"
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
@@ -70,7 +70,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/small
 	name = "small case of 'Rapier' ammo"
 	desc = "A small case with two 'Rapier' magazines. Does NOT fit in explorer webbing and was not designed to properly store its contents, and should be emptied and recycled immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	icon_state = "miner_case_small"
 	illustration = ""
 
@@ -122,7 +122,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/shotgun //box
 	name = "box of 'slayer' magnum buckshot"
 	desc = "A box that can hold up to ten shells of Magnum Mining Buckshot for the 'Slayer'. Fits inside of explorer webbings."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	icon_state = "protoshell_box"
 	illustration = "protoshell_box"
 
@@ -142,7 +142,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/shotgun/sniperslug //box
 	name = "box of .50 BMG 'slayer' shells"
 	desc = "A box designed to hold up to ten shells of 50 BMG Slugs for the 'Slayer'. Fits inside of explorer webbings."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	icon_state = "bmgshell_box"
 	illustration = "bmgshell_box"
 
@@ -186,7 +186,7 @@ THOR RIFLE
 	name = "'Slayer' Magnum Buckshot Shell"
 	desc = "A 12 gauge Shell loaded with magnum kinetic projectiles. Penetrates rocky walls and creatures! <b> Does NOT fit in any standard 12 gauge shotgun! </b>"
 	icon_state = "shellproto"
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	caliber = MINER_SHOTGUN
 	pellets = 5
 	variance = 30
@@ -202,7 +202,7 @@ THOR RIFLE
 /obj/item/ammo_casing/shotgun/kinetic/sniperslug //slugs essentially
 	name = "'Slayer' .50 BMG"
 	desc = "If god did not want us to put 50 BMG in a 12 gauge, he would not have given them similar diameter! A incredibly large 50 BMG round adapted into a slug. Does not penetrate targets like 'Slayer' Magnum Buckshot, but still penetrates rock walls. <b> Does NOT fit in any standard 12 gauge shotgun! </b>"
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "slugbmg"
 	pellets = 1
 	variance = 5
@@ -288,7 +288,7 @@ THOR RIFLE
 /obj/item/ammo_casing/govmining
 	name = ".45-70 Gov Mining Magnum Casing"
 	desc = "An absolute beast of a round that will probably only fit in the 'Duster' Revolver."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = ".45-70"
 	caliber = CALIBER_GOV_MINING
 	projectile_type = /obj/projectile/bullet/govmining
@@ -296,7 +296,7 @@ THOR RIFLE
 /obj/item/ammo_box/govmining
 	name = "speed loader (.45-70 Kinetic)"
 	desc = "A six round speedloader carrying an absolute beast of a round for the 'Duster' Revolver."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "4570loader"
 	w_class = WEIGHT_CLASS_TINY
 	ammo_type = /obj/item/ammo_casing/govmining
@@ -321,7 +321,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/govmining
 	name = "box of .45-70 Gov Mining rounds"
 	desc = "A box containing 36 individual .45-70 Gov Mining rounds. Good for loading your 'Duster' revolver or refilling your speedloaders. Fits in explorer webbing."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	icon_state = "gov_box"
 	illustration = ""
 	foldable_result = /obj/item/stack/sheet/cardboard
@@ -342,7 +342,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/govmining/smallcase
 	name = "Case of 'Duster' Speedloaders"
 	desc = "A case containing three spare speedloaders for the 'Duster' revolver. This one can actually store its contents correctly and be re-used."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	icon_state = "miner_case_small"
@@ -377,7 +377,7 @@ THOR RIFLE
 /obj/item/ammo_box/magazine/autoshotgun
 	name = "20 Gauge Shotgun Magazine"
 	desc = "A single magazine capable of holding 12 rounds of 20 gauge mining hydra shells."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "proto20gmag"
 	base_icon_state = "proto20gmag"
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
@@ -388,7 +388,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/autoshotgun //box containing 45 spare shells for the fenrir, used to reload spare mags. cheaper to buy than new spare mags.
 	name = "20. Gauge Hydra Shell Box"
 	desc = "A surprisingly hefty box containing 45 spare 10. gauge Hydra shells, for reloading spare Fenrir magazines. Despite its heft, it fits in explorer webbing."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	icon_state = "smallshell_box"
 	illustration = ""
 
@@ -406,7 +406,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/autoshotgun/smallcase //box containing 3 spare mags for the fenrir auto shotgun
 	name = "Spare Fenrir Shotgun Magazine Case"
 	desc = "A small gun case that contains three spare magazines for the Fenrir auto shotgun. It is not designed to store its contents properly, and should be emptied and disposed of immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	icon_state = "miner_case_small"
@@ -430,7 +430,7 @@ THOR RIFLE
 	name = "Mining Hydra Shell"
 	desc = "A 20 gauge shell loaded with five pellets, dubbed the Mining Hydra Shell! <b> Does NOT fit in any standard shotgun! </b>"
 	icon_state = "20gshell"
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	caliber = KINETIC_20G
 	pellets = 5
 	variance = 10 //very tight spread
@@ -461,7 +461,7 @@ THOR RIFLE
 /obj/item/ammo_casing/a762kinetic
 	name = "7.62mm mining bullet casing"
 	desc = "A 7.62mmm bullet casing, or Triple M, for use in the 'Hellhound' LMG."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "762kinetic-casing"
 	caliber = CALIBER_A762_KINETIC
 	projectile_type = /obj/projectile/bullet/a762kinetic
@@ -481,7 +481,7 @@ THOR RIFLE
 /obj/item/ammo_box/a762kinetic
 	name = "stripper clip (7.62mm mining)"
 	desc = "A stripper clip with 7.62 Triple M rounds."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "762kinetic"
 	max_ammo = 5
 	ammo_type = /obj/item/ammo_casing/a762kinetic
@@ -492,7 +492,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/kineticlmg //box of stripper clips (30, totalling 150 rounds, or one full reload)
 	name = "box of kinetic 7.62mm mining stripper clips"
 	desc = "A box that contains up to 30 stripper clips of 7.62 Triple M, for refilling the 'Hellhound' LMG. Surprisingly fits inside of explorer webbings."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	icon_state = "kinetic762_box"
 	illustration = ""
 
@@ -522,7 +522,7 @@ THOR RIFLE
 /obj/item/ammo_casing/minerjdj
 	name = ".950 JDJ Lightning casing"
 	desc = "A monster of a round for the 'Thor' Rifle, weighing over half a pound and capable of generating over 50,000 Joules of force. You might assume almost nothing could survive a round like this... but..."
-	icon = 'modular_oculis/modules/saltmining/icons/Ammo_Item.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = ".950"
 	caliber = CALIBER_MINER_950
 	projectile_type = /obj/projectile/plasma/minerjdj
@@ -547,7 +547,7 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/minerjdj //box containing a single bullet, as to not anger the mining vendor with the bullets dynamic description
 	name = ".950 JDJ Kinetic bullet case"
 	desc = "A pretty redundant small gun case that only contains a single .950 JDJ Kinetic round for the 'Thor' rifle... its more than enough honestly. It is not designed to store its contents properly, and should be emptied and disposed of immedietly."
-	icon = 'modular_oculis/modules/saltmining/icons/Boxes.dmi'
+	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_BULKY
