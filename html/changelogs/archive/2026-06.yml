@@ -42,3 +42,6 @@
   misleadingname:
   - rscadd: Added mob wall pinning, aggressive grab a mob then combat mode click a
       wall, door or a window to pin it against it.
+2026-06-14:
+  XeonMations:
+  - bugfix: You can no longer be allergic to amnestics or mnestics.
