@@ -1,7 +1,7 @@
 //This is the code file for the surplus mining crate, a 5000 point unlocked necropolis crate miners can buy with spare points.
 /obj/structure/closet/crate/necropolis/surplus
 	name = "surplus necropolis chest"
-	desc = "A dusty, old necropolis crate, from some deep space science warehouse. It has a big orange sticker that reads <b> Quality Not Guaranteed <b/>"
+	desc = "A dusty, old necropolis crate, from some deep space science warehouse. It has a big orange sticker that reads <b> Quality Not Guaranteed </b>"
 	icon_state = "necrocrate"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	can_install_electronics = FALSE
