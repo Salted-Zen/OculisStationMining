@@ -20,7 +20,7 @@
 	pellets = 8
 	variance = 360
 	fire_sound = 'sound/items/weapons/gun/general/cannon.ogg'
-Due to being a defunct version of the shockwave's ammo casing, this is being commented out and is now in the SaltMining Module*/
+*/ // OCULIS EDIT REMOVAL END
 /obj/item/ammo_casing/energy/kinetic/m79
 	projectile_type = /obj/projectile/bullet/mining_bomb
 	e_cost = LASER_SHOTS(2, STANDARD_CELL_CHARGE * 0.5)
