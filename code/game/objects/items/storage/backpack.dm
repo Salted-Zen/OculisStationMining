@@ -320,7 +320,7 @@
 		ADD_TRAIT(user, TRAIT_BELT_SATCHEL, CLOTHING_TRAIT)
 		var/obj/item/storage/backpack/worn_backpack = user.get_item_by_slot(ITEM_SLOT_BACK)
 		if(istype(worn_backpack))
-			worn_backpack.slowdown = worn_backpack.satchelslowdown //OCULIS EDIT - Use the backpacks satchelslowdown variable for slowdown, see Salt Mining Module for more info (Originally was hard set to just 1.5)
+			worn_backpack.slowdown = worn_backpack.satchelslowdown //OCULIS EDIT CHANGE -  ORIGINAL: worn_backpack.slowdown = 1.5 // Use the backpacks satchelslowdown variable for slowdown, see Salt Mining Module for more info
 			user.update_equipment_speed_mods()
 
 /obj/item/storage/backpack/satchel/dropped(mob/user, silent)
