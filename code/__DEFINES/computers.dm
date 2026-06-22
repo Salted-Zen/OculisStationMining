@@ -11,7 +11,7 @@
 #define CATEGORY_BEPIS "Bepis Tech"
 #define CATEGORY_BITRUNNING_FLAIR "Misc"
 #define CATEGORY_BITRUNNING_TECH "Tech"
-#define CATEGORY_WASTELAND_GUNS "Wasteland Guns" //OCULIS EDIT - NEW CATEGORY FOR THE WASTELAND GUNS BECAUSE THERE ARE SO MANY. CHECK SALT MINING FOR THE CONTENTS OF THIS CATEGORY
+#define CATEGORY_WASTELAND_GUNS "Wasteland Guns" //OCULIS EDIT - ADDITION // Uses a custom category because there are so many guns. Check saltmining for the contents of this category.
 
 ///Helper macro for record computers' preview views, used to ensure consistency in all use cases.
 #define USER_PREVIEW_ASSIGNED_VIEW(user_ckey) "preview_[user_ckey]_[REF(src)]_records"
