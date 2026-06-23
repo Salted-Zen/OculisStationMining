@@ -34,7 +34,7 @@
 		if(23,24)
 			new /obj/item/jacobs_ladder(src)
 		if(25,26)
-			new /obj/item/guardian_creator/miner(src)
+			new /obj/item/kinetic_crusher/runic_greatsword(src) //A crusher made by the catgirls on icebox, does a marking swing around it instead of firing a destabilizing shot
 		if(27,28)
 			new /obj/item/warp_cube/red(src)
 		if(29,30)

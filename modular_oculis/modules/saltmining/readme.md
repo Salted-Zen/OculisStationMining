@@ -70,6 +70,9 @@ Change is on lines 17
 modular_nova/modules/mining_crushers/code/crusher_conversion_kit.dm (Added into the kit the pilebunker and sickle so they can be attained)
 Change is on lines 24 and 25
 
+code/game/objects/effects/spawners/random/mining_loot.dm (Replaced power miner shard with wolf cloak)
+Change is on lines 20
+
 ### Credits: Salted-Zen (made mostly everything, not fauna multipliers), notghosti, Ice-Type (Made the code for fauna multipliers on projectiles), Dwasint (Quad Shotgun sounds used on the Thor)
 
 im cryin so many errors in here
