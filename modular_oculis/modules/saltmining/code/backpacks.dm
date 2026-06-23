@@ -26,7 +26,6 @@
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/repeater,
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/shockwave,
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/shotgun,
-		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/nomod/m79,
 		/obj/item/gun/ballistic/revolver/govmining/venator,
 		/obj/item/gun/ballistic/shotgun/automatic/combat/compact/goliathhunter,
 
@@ -59,7 +58,6 @@
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/repeater,
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/shockwave,
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/shotgun,
-		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/nomod/m79,
 		/obj/item/gun/ballistic/revolver/govmining/venator,
 		/obj/item/gun/ballistic/shotgun/automatic/combat/compact/goliathhunter,
 		/obj/item/kinetic_crusher,
