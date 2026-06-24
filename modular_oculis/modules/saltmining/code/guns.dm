@@ -242,6 +242,9 @@ THOR RIFLE
 		playsound(src, 'sound/items/handling/ammobox_pickup.ogg', 20, FALSE)
 	. = ..()
 
+/obj/item/gun/ballistic/revolver/govmining/give_manufacturer_examine()
+	return //NO MANUFACTURER STAMP
+
 /obj/item/storage/box/kinetic/govmining/bigcase
 	name = "Kinetic 'Duster' Revolver Case"
 	desc = "A case containing a 'Duster' Mining revolver and three speedloaders. The box is not designed to store its contents properly, and thus should be emptied and disposed of immedietly."
