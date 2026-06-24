@@ -292,6 +292,13 @@ THOR RIFLE
 	icon_state = ".45-70"
 	caliber = CALIBER_GOV_MINING
 	projectile_type = /obj/projectile/bullet/govmining
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/govmining
+
+/obj/item/ammo_box/magazine/ammo_stack/govmining
+	name = "45-70. Mining Casings"
+	desc = "A stack of bullets for the 'Duster' Revolver."
+	caliber = CALIBER_GOV_MINING
+	ammo_type = /obj/item/ammo_casing/govmining
 
 /obj/item/ammo_box/govmining
 	name = "speed loader (.45-70 Kinetic)"
@@ -470,7 +477,7 @@ THOR RIFLE
 	name = "7.62mmm projectile"
 	damage = 2
 	icon_state = "gaussweak"
-	lavafauna_mod = 5 //total is 10 damage, less than the smg per shot but makes up for that by firing super fast and having sustain
+	lavafauna_mod = 5
 
 /obj/projectile/bullet/a762kinetic/on_hit(atom/target, Firer, blocked = 0, pierce_hit) //its not meant to tear through walls like a plasma cutter, but will still at least bust down a wall if it hits one.
 	if(ismineralturf(target))
