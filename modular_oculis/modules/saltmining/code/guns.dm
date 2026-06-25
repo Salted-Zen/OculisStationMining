@@ -210,7 +210,8 @@ THOR RIFLE
 	rack_sound = 'sound/items/weapons/gun/general/chunkyrack.ogg'
 	icon_state = "goliathhunter"
 	inhand_icon_state = "goliathhunter"
-	worn_icon = "gun"
+	worn_icon = 'icons/mob/clothing/belt.dmi'
+	worn_icon_state = "gun"
 	inside_belt_icon_state = "gun"
 	bolt_wording = "charging handle"
 	slot_flags = NONE //Keep it in your bag
