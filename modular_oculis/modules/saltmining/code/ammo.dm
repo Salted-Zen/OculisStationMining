@@ -475,7 +475,7 @@ THOR RIFLE
 
 /obj/projectile/bullet/a762kinetic
 	name = "7.62mmm projectile"
-	damage = 2
+	damage = 3
 	icon_state = "gaussweak"
 	lavafauna_mod = 5
 
