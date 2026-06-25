@@ -442,6 +442,13 @@ THOR RIFLE
 	pellets = 5
 	variance = 10 //very tight spread
 	projectile_type = /obj/projectile/bullet/hydrakinetic
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/autoshotgun
+
+/obj/item/ammo_box/magazine/ammo_stack/autoshotgun
+	name = "20. Gauge hydra shells"
+	desc = "A stack of hydra shells for the 'Fenrir' Auto shotgun."
+	caliber = KINETIC_20G
+	ammo_type = /obj/item/ammo_casing/shotgun/hydrakinetic
 
 /obj/projectile/bullet/hydrakinetic
 	name = "Mining Hydra Sabot"
