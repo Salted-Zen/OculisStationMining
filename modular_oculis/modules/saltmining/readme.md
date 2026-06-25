@@ -62,7 +62,7 @@ modular_nova/modules/mapping/code/interdyne_mining.dm (Added the category "Waste
 Change is on lines 18
 
 code/datums/storage/subtypes/belts.dm (added all the ammos and their boxes to the explorer webbing, giving webbing more utility as small ammo storage)
-Change is on lines 174 all the way to 194
+Change is on lines 174 all the way to 197
 
 modular_nova/modules/mining_pka/code/projectiles.dm (Commented out old defunct shockwave ammo casing so it could be moved into this module)
 Change is on lines 17

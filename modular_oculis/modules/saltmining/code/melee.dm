@@ -13,6 +13,8 @@
 	desc = "An absolute beast of a crusher, designed to inflict as much damage as possible in a single strike, \
 	with little regard for the user's own safety or physical ability to handle the weapon. Takes a short \
 	moment to wind up a blow, and the spike has to be retracted after each use."
+	worn_icon = 'icons/mob/clothing/belt.dmi'
+	worn_icon_state = "gun"
 	force = 0 //You can't hit stuff unless wielded
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = NONE
@@ -30,7 +32,7 @@
 	backstab_bonus = 200 //if you land a backstab it does 500 instead
 	force_wielded = 5 //hit the crusher mark or suffer no damage
 	var/armed = FALSE //is the weapon armed?
-	var/windup_time = 1 SECONDS//IN SECONDS HOW LONG YOU NEED TO HOLD STILL TO STRIKE
+	var/windup_time = 0.5 SECONDS//IN SECONDS HOW LONG YOU NEED TO HOLD STILL TO STRIKE
 	var/potentialrange = 1 //should be set same as melee range, essentially a fall back so if somebody teleports / moves away from the user, itll still cancel the attack
 	var/spikeretracttime = 3 SECONDS //how long for the spike to retract?
 
@@ -38,6 +40,9 @@
 	. = ..()
 	AddElement(/datum/element/update_icon_updates_onmob, ITEM_SLOT_HANDS)
 	AddComponent(/datum/component/two_handed, force_unwielded=0, force_wielded=force_wielded)
+
+/obj/item/kinetic_crusher/pilebunker/update_reskin(datum/atom_skin/crusher_skin/default_skin_typepath)
+	return null
 
 /obj/item/kinetic_crusher/pilebunker/recharge_projectile()
 	if(!charged)

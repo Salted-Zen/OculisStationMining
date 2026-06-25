@@ -191,7 +191,10 @@
 		/obj/item/ammo_casing/a762kinetic,
 		/obj/item/ammo_box/a762kinetic,
 		/obj/item/storage/box/kinetic/kineticlmg,
-		/obj/item/ammo_casing/minerjdj, //OCULIS CHANGE END
+		/obj/item/ammo_casing/minerjdj,
+		/obj/item/ammo_box/magazine/ammo_stack/govmining,
+		/obj/item/ammo_box/magazine/ammo_stack/kineticmagnum,
+		/obj/item/ammo_box/magazine/ammo_stack/autoshotgun, //OCULIS CHANGE END
 	))
 
 ///Primitive mining belt

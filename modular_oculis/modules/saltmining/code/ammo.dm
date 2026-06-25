@@ -41,7 +41,7 @@ THOR RIFLE
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 	ammo_type = /obj/item/ammo_casing/energy/kinetic/smg
 	caliber = ENERGY
-	max_ammo = 35
+	max_ammo = 30
 
 /obj/item/storage/box/kinetic
 	name = "box of 'Rapier' mining magazines"
@@ -96,7 +96,7 @@ THOR RIFLE
 	range = 6
 	icon_state = "gauss_silenced"
 	skillbasedweapon = FALSE
-	lavafauna_mod = 3
+	lavafauna_mod = 5
 
 //--------------------------------------------------------------------------//
 //--------------------------------------------------------------------------//
@@ -248,7 +248,7 @@ THOR RIFLE
 	name = "rockbreaker"
 	speed = 5
 	damage = 1
-	range = 10
+	range = 7
 	icon_state = "guardian"
 	projectile_piercing = NONE
 
@@ -348,7 +348,7 @@ THOR RIFLE
 
 /obj/item/storage/box/kinetic/govmining/smallcase
 	name = "Case of 'Duster' Speedloaders"
-	desc = "A case containing three spare speedloaders for the 'Duster' revolver. This one can actually store its contents correctly and be re-used."
+	desc = "A case containing three spare speedloaders for the 'Duster' revolver. It is not designed to store its contents properly, and should be emptied and disposed of immedietly."
 	icon = 'modular_oculis/modules/saltmining/icons/boxes.dmi'
 	drop_sound = 'sound/items/handling/toolbox/toolbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbox/toolbox_pickup.ogg'
@@ -361,7 +361,7 @@ THOR RIFLE
 	atom_storage.max_slots = 3
 	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
 	atom_storage.max_total_storage = 3
-	atom_storage.set_holdable(list(/obj/item/ammo_box/govmining))
+	atom_storage.set_holdable(list())
 
 /obj/item/storage/box/kinetic/govmining/smallcase/PopulateContents() //populate
 
@@ -453,7 +453,7 @@ THOR RIFLE
 /obj/projectile/bullet/hydrakinetic
 	name = "Mining Hydra Sabot"
 	icon_state = "flechette"
-	damage = 2
+	damage = 3
 	lavafauna_mod = 5
 
 /obj/projectile/bullet/hydrakinetic/on_hit(atom/target, Firer, blocked = 0, pierce_hit) //its not meant to tear through walls like a plasma cutter, but will still at least bust down a wall if it hits one.

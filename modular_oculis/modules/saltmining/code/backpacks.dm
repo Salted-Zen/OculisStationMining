@@ -102,6 +102,10 @@
 		/obj/item/storage/box/kinetic/shotgun,
 		/obj/item/storage/box/kinetic/shotgun/sniperslug,
 		/obj/item/storage/box/kinetic/shotgun/rockbreaker,
+		/obj/item/ammo_box/magazine/ammo_stack/govmining,
+		/obj/item/ammo_box/magazine/ammo_stack/kineticmagnum,
+		/obj/item/ammo_box/magazine/ammo_stack/autoshotgun,
+
 	),
 	list( //cant hold these
 		/obj/item/storage/box/kinetic/govmining/bigcase,
