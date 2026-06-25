@@ -210,13 +210,17 @@ THOR RIFLE
 	rack_sound = 'sound/items/weapons/gun/general/chunkyrack.ogg'
 	icon_state = "goliathhunter"
 	inhand_icon_state = "goliathhunter"
-	icon_state = "goliathhunter"
+	worn_icon = "gun"
+	inside_belt_icon_state = "gun"
 	bolt_wording = "charging handle"
 	slot_flags = NONE //Keep it in your bag
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/com/compact/goliathhunter
 	w_class = WEIGHT_CLASS_NORMAL
 	weapon_weight = WEAPON_MEDIUM
 	pin = /obj/item/firing_pin/wastes //has to be manually added as its not a subtype of a pre-existing wasteland gun
+
+/obj/item/gun/ballistic/shotgun/automatic/combat/compact/goliathhunter/give_manufacturer_examine()
+	return //NO MANUFACTURER STAMP
 
 //--------------------------------------------------------------------------//
 //--------------------------------------------------------------------------//
