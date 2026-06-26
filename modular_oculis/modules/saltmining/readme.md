@@ -42,6 +42,9 @@ KINETIC_20G "20 Gauge Mining Shell" (Fenrir)
 CALIBER_A762_KINETIC "7.65 Mining" (Hellhound)
 CALIBER_MINER_950 ".950 JDJ Lightning" (Thor)
 
+modular_oculis/modules/saltmining/code/backpacks.dm
+PAIRED_STORAGE_NO_SLOWDOWN 0 (No slowdown for backpacks using this defined value)
+
 ### Included files that are not contained in this module: Please Read
 
 There are a few changes to core files due to the way things are coded, as to prevent errors.
@@ -51,9 +54,6 @@ Changes are on lines 198 and 263
 
 code/modules/projectiles/projectile.dm (Added lavafauna_mod variable to allow adding a multiplier for damage versus lavaland fauna. Also added a portion of code that makes this actually work)
 Changes are on lines 275 and 409
-
-code/game/objects/items/storage/backpack.dm (Modified satchel + backpack slowdown functionality and added a variable to the base backpack item)
-Changes are on lines 30, 41, and 323
 
 code/game/machinery/computer/orders/order_computer/mining_order.dm (Added the category "Wasteland Weapons" to the shaft miner console)
 Change is on lines 25, for the define please see above in defines.

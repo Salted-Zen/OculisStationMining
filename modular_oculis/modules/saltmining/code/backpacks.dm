@@ -1,4 +1,7 @@
 //This file contains the three backpacks made specifically for shaft miners!
+//also includes a new holster, cry about it
+
+#define PAIRED_STORAGE_NO_SLOWDOWN 0
 
 /obj/item/storage/backpack/rockspider //three slots, can only hold mining guns and PKAs, nothing else
 	name = "Rockspider Pack"
@@ -7,7 +10,8 @@
 	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "rockspider"
 	inhand_icon_state = "backpack"
-	satchelslowdown = 0
+	satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
+
 
 /obj/item/storage/backpack/rockspider/Initialize(mapload)
 	. = ..()
@@ -39,7 +43,7 @@
 	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "ashenduelist"
 	inhand_icon_state = "backpack"
-	satchelslowdown = 0
+	satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
 
 /obj/item/storage/backpack/ashduelist/Initialize(mapload)
 	. = ..()
@@ -77,7 +81,7 @@
 	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "trenchjockey"
 	inhand_icon_state = "backpack"
-	satchelslowdown = 0
+	satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
 
 /obj/item/storage/backpack/trenchjockey/Initialize(mapload)
 	. = ..()
@@ -117,3 +121,15 @@
 	))
 
 	atom_storage.max_total_storage = 100
+
+/*
+/obj/item/storage/belt/holster/wasteland
+	name = "wasteland gun holster"
+	desc = "A special holster that can carry any wasteland gun, and fits in your suit storage slot or belt!"
+	icon_state = "holsterwaste"
+	inhand_icon_state = "holster"
+	worn_icon_state = NULL
+	alternate_worn_layer = UNDER_SUIT_LAYER
+	w_class = WEIGHT_CLASS_BULKY
+	storage_type = /datum/storage/holster
+*/
