@@ -7,6 +7,11 @@
 	desc = "A special shovel meant for beating lavaland fauna to death... its not very good at it... "
 	cost_per_order = 500
 
+/datum/orderable_item/mining/holsterwastes
+	purchase_path = /obj/item/storage/belt/holster/wasteland
+	desc = "A special holster that only has space for any wasteland gun, but fits in your suit storage or belt."
+	cost_per_order = 1000
+
 /datum/orderable_item/mining/rockspider
 	purchase_path = /obj/item/storage/backpack/rockspider
 	desc = "A specialized backpack for carrying up to three ranged mining weapons. Will not slow you down with a satchel."

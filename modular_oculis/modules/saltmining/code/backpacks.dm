@@ -3,6 +3,45 @@
 
 #define PAIRED_STORAGE_NO_SLOWDOWN 0
 
+/obj/item/storage/belt/holster/wasteland
+	name = "wasteland gun holster"
+	desc = "A special holster that can carry any wasteland gun, and fits in your suit storage slot or belt!"
+	icon = 'modular_oculis/modules/saltmining/icons/backpack_item.dmi'
+	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
+	icon_state = "holsterwastes"
+	inhand_icon_state = "holster"
+	worn_icon_state = "notreal"
+	alternate_worn_layer = UNDER_SUIT_LAYER
+	w_class = WEIGHT_CLASS_BULKY
+	storage_type = /datum/storage/belt/holster/wasteland
+
+/datum/storage/belt/holster/wasteland
+	max_slots = 1
+	max_total_storage = 10
+	open_sound = 'sound/items/handling/holster_open.ogg'
+	open_sound_vary = TRUE
+	max_specific_storage = WEIGHT_CLASS_HUGE //big guns go in here
+	quickdraw = TRUE
+
+/datum/storage/belt/holster/wasteland/New(atom/parent, max_slots, max_specific_storage, max_total_storage, rustle_sound, remove_rustle_sound, list/holdables)
+	. = ..()
+	if(length(holdables))
+		set_holdable(holdables)
+		return
+
+	set_holdable(list(
+		/obj/item/gun/ballistic/automatic/proto/pksmg,
+		/obj/item/gun/ballistic/shotgun/doublebarrel/kinetic,
+		/obj/item/gun/ballistic/shotgun/automatic/combat/compact/goliathhunter,
+		/obj/item/gun/ballistic/revolver/govmining,
+		/obj/item/gun/ballistic/revolver/govmining/venator,
+		/obj/item/gun/ballistic/automatic/proto/pksmg/autoshotgun,
+		/obj/item/gun/ballistic/automatic/proto/pksmg/kineticlmg,
+		/obj/item/gun/ballistic/rifle/minerjdj,
+		//wasteland guns ONLY no pkas
+	))
+
+
 /obj/item/storage/backpack/rockspider //three slots, can only hold mining guns and PKAs, nothing else
 	name = "Rockspider Pack"
 	desc = "A surprisingly flexible and durable bag, capable of carrying up to three mining guns at once, for those who prowl the wastes with a passion for marksmanship. Due to its flexibility, it doesn't interfere with movement like most bags when paired with a satchel."
@@ -122,14 +161,3 @@
 
 	atom_storage.max_total_storage = 100
 
-/*
-/obj/item/storage/belt/holster/wasteland
-	name = "wasteland gun holster"
-	desc = "A special holster that can carry any wasteland gun, and fits in your suit storage slot or belt!"
-	icon_state = "holsterwaste"
-	inhand_icon_state = "holster"
-	worn_icon_state = NULL
-	alternate_worn_layer = UNDER_SUIT_LAYER
-	w_class = WEIGHT_CLASS_BULKY
-	storage_type = /datum/storage/holster
-*/
