@@ -49,7 +49,7 @@
 	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "rockspider"
 	inhand_icon_state = "backpack"
-	//satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
+	satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
 
 
 /obj/item/storage/backpack/rockspider/Initialize(mapload)
@@ -82,7 +82,7 @@
 	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "ashenduelist"
 	inhand_icon_state = "backpack"
-	//satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
+	satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
 
 /obj/item/storage/backpack/ashduelist/Initialize(mapload)
 	. = ..()
@@ -120,7 +120,7 @@
 	worn_icon = 'modular_oculis/modules/saltmining/icons/backpack_worn.dmi'
 	icon_state = "trenchjockey"
 	inhand_icon_state = "backpack"
-	//satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
+	satchel_movespeed_modifier = PAIRED_STORAGE_NO_SLOWDOWN
 
 /obj/item/storage/backpack/trenchjockey/Initialize(mapload)
 	. = ..()
