@@ -27,7 +27,7 @@
 	attack_verb_continuous = list("impales", "stabs", "destroys", "strikes")
 	attack_verb_simple = list("impale", "stab", "destroy", "strike")
 	sharpness = SHARP_POINTY
-	charge_time = 75 //be patient, its alot of damage :)
+	charge_time = 5 SECONDS //be patient, its alot of damage :)
 	detonation_damage = 295 //add the five for a perfect 300 damage, enough to kill all basic enemies
 	backstab_bonus = 200 //if you land a backstab it does 500 instead
 	force_wielded = 5 //hit the crusher mark or suffer no damage
@@ -165,7 +165,7 @@
 	desc = "A simple yet effective design change was to curve the blade far more drastically, which \
 	has resulted in a crusher that is capable of digging deep through the natural armor of local fauna \
 	and cutting into veins and arteries, allowing the sickle design to cause extra damage through extreme blood loss. \
-	It can be weilded with one hand and clips to the belt!"
+	It can be wielded with one hand and clips to the belt!"
 	force = 15
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_BELT
@@ -181,17 +181,16 @@
 	charge_time = 10
 	detonation_damage = 25 //40 on a detonation 60 on a backstab but you get 125 bonus if you whack do three marks
 	backstab_bonus = 20
-	force_wielded = 15
 	acts_as_if_wielded = TRUE
 
-/obj/item/kinetic_crusher/sickle/update_wielding()
-	AddComponent(/datum/component/two_handed, force_unwielded = 10, force_wielded = 15)
+/obj/item/kinetic_crusher/sickle/Initialize(mapload)
+	. = ..()
+	qdel(GetComponent(/datum/component/two_handed)) //OCULIS EDIT - SALTMINING - THE MACHETE WAS ALWAYS MEANT TO BE ONE HANDED, NOT WIELDED
 
 /obj/item/kinetic_crusher/sickle/examine(mob/living/user)
-	. = ..()
 	. += span_notice("Mark a large creature with a destabilizing force with right-click, then hit them in melee to do <b>[force + detonation_damage]</b> damage.")
 	. += span_notice("Does <b>[force + detonation_damage + backstab_bonus]</b> damage if the target is backstabbed, instead of <b>[force + detonation_damage]</b>.")
-	. += span_notice("Does <b> 4 </b> stack of bleed on mark detonation, <b> 6 </b> for a backstab. upon reaching <b> 10 </b> stacks of bleed, deals <b> 100 </b> extra damage.")
+	. += span_notice("Does <b> 4 </b> stack of bleed on mark detonation, <b> 6 </b> for a backstab. upon reaching <b> 10 </b> stacks of bleed, deals <b> 125 </b> extra damage.")
 	for(var/t in trophies)
 		var/obj/item/crusher_trophy/T = t
 		. += span_notice("It has \a [T] attached, which causes [T.effect_desc()].")
@@ -243,11 +242,11 @@
 //--------------------------------------------------------------------------//
 //--------------------------------------------------------------------------//
 
-//The 'Gardener' Shovel, almost useless outside of being really funny, like hunter boxing, but maybe even worse
+//The 'Gardener' Shovel - SCREAMING EAGLES!!!!!
 
 /obj/item/shovel/gardener
 	name = "'Gardener' Tactical Shovel"
-	desc = "A specially designed shovel for digging extra fast, and tactically caving in the skulls of the local fauna. Actually its not that good at that but you can certainly try..."
+	desc = "A specially designed shovel for digging extra fast, and tactically caving in the skulls of the local fauna."
 	icon = 'modular_oculis/modules/saltmining/icons/melee_item.dmi'
 	lefthand_file = 'modular_oculis/modules/saltmining/icons/melee_left_hand.dmi'
 	righthand_file = 'modular_oculis/modules/saltmining/icons/melee_right_hand.dmi'
@@ -256,21 +255,22 @@
 	inhand_icon_state = "gardener"
 	slot_flags = NONE //Nope, no belt storage lol
 	icon_angle = 135
-	force = 10
-	throwforce = 15
+	force = 13 //matches that of a toolbox
+	throwforce = 10
+	sharpness = NONE //GOD BLESS AMERICA, HIT EM WITH THE FLAT SIDE OF IT
 	tool_behaviour = TOOL_SHOVEL
 	toolspeed = 0.05 //super fast tactical shovel!!!! seriously though you spent money on THIS?? fine, you can have a fast shovel!
 	usesound = 'sound/effects/shovel_dig.ogg'
 	attack_verb_continuous = list("gardens", "beats", "thwacks", "thumps")
 	attack_verb_simple = list("garden", "beat", "thwack", "thump")
-	sharpness = SHARP_EDGED
-	var/lavafauna_bonus = 30 //totals 40 damage versus lavaland fauna, pretty crap but not horribly unusable, mostly a joke weapon anyways
-	var/random_crit_damage = 300 //fuck it critting instantly kills basic fauna, and horribly cripples bosses
-	var/critchance = 30 //chance to crit, lower is higher. Set to 1 for guranteed, do not set to 0.
+	var/lavafauna_bonus = 27 //totals 40 damage versus lavaland fauna
+	var/random_crit_damage = 150 //break their knee caps
+	var/random_crit_pvp_damage = 7 //not alot, but it is extra damage
+	var/critchance = 15 //chance to crit, lower is higher. Set to 1 for guranteed, do not set to 0.
 
 /obj/item/shovel/gardener/examine(mob/living/user)
 	. = ..()
-	. += span_notice("You have the strangest feeling it might 'crit' randomly against lavaland fauna... Whatever that means.")
+	. += span_notice("SCREAMING EAGLES!!! You have the strangest feeling it might randomly 'crit' against anything you hit... the numbers 1 in [critchance] resonate in your head... whatever the fuck all that means.")
 
 /obj/item/shovel/gardener/attack(mob/living/target, mob/living/carbon/human/user)
 	var/targetfaction = target.get_faction()
@@ -279,15 +279,20 @@
 		force += lavafauna_bonus
 		if(crit == 1) //RANDOM CRIT!!!
 			force += random_crit_damage
-			playsound(user, 'sound/items/lead_pipe_hit.ogg', 100, TRUE)
-			to_chat(user, "<font color='green'>CRITICAL HIT!!!</font>")
+			playsound(target, 'modular_oculis/modules/saltmining/sound/randomcrit.ogg', 100, TRUE)
+			target.balloon_alert_to_viewers("<font color='green'>CRITICAL HIT!</font>")
+	else if (crit == 1) //RANDOM CRIT!!! BUT AGAINST A PERSON!!!
+		force += random_crit_pvp_damage
+		playsound(target, 'modular_oculis/modules/saltmining/sound/randomcrit.ogg', 100, TRUE)
+		target.balloon_alert_to_viewers("<font color='green'>CRITICAL HIT!</font>")
 	. = ..()
 	if(faction_check(targetfaction, list(FACTION_MINING, FACTION_BOSS))) //we then run through again and fix the damage
 		force -= lavafauna_bonus
 		if(crit == 1) //undo random crit damage
 			force -= random_crit_damage
+	else if (crit == 1)
+		force -= random_crit_pvp_damage
 	return FALSE
-
 //--------------------------------------------------------------------------//
 //--------------------------------------------------------------------------//
 

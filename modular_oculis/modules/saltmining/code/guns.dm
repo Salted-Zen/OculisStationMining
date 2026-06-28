@@ -20,7 +20,7 @@ THOR RIFLE
 	icon = 'modular_oculis/modules/saltmining/icons/gun_item.dmi'
 	icon_state = "kineticshockwave"
 	base_icon_state = "kineticshockwave"
-	recharge_time = 2 SECONDS
+	recharge_time = 3 SECONDS //same as railgun but can be cooldown modded
 	ammo_type = list(/obj/item/ammo_casing/energy/kinetic/shockwave)
 	max_mod_capacity = 90 //bumped up to 90 to compensate for the 30 you need to spend on the AOE mod that gives it its functionality
 
