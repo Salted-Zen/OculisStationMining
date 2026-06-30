@@ -73,8 +73,8 @@ Change is on lines 24 and 25
 code/game/objects/effects/spawners/random/mining_loot.dm (Replaced power miner shard with wolf cloak)
 Change is on lines 20
 
-modular_nova/modules/mining_crushers/code/miningweapons.dm (Upgraded machete to 15 base and removed the two handed component, also buffed block chance to 25% - These changes bring the machete more in line with how I originally designed and planned it to be)
-Change is on lines 25, 27, and 53
+modular_nova/modules/mining_crushers/code/miningweapons.dm (Upgraded machete to 15 base and removed the two handed component, also buffed block chance to 25% - These changes bring the machete more in line with how I originally designed and planned it to be. Also removes two handing on the claws for the same reason as machete)
+Change is on lines 25, 27, 53, and 218
 
 code/datums/status_effects/neutral.dm (Changed the status effect that tracks crusher damage to always start at 100,000 damage, thus making a single detonation give crusher drop eligability)
 Change is on lines 10

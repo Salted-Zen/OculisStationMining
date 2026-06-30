@@ -215,6 +215,7 @@
 /obj/item/kinetic_crusher/claw/Initialize(mapload)
 	. = ..()
 	update_wielding()
+	qdel(GetComponent(/datum/component/two_handed)) //OCULIS EDIT - SALTMINING - THE CLAWS WERE MEANT TO BE ONLY ONE HANDED, NEVER TWO
 	AddComponent(/datum/component/butchering, \
 		speed = 5 SECONDS, \
 		effectiveness = 100, \
