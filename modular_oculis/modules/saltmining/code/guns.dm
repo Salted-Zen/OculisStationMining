@@ -385,7 +385,7 @@ THOR RIFLE
 	internal_magazine = TRUE
 	spread = 3
 	pin = /obj/item/firing_pin/wastes
-	fire_sound = 'sound/items/weapons/gun/hmg/hmg.ogg'
+	fire_sound = 'modular_oculis/modules/saltmining/sound/hmg-short.ogg'
 
 /obj/item/gun/ballistic/automatic/proto/pksmg/kineticlmg/Initialize(mapload)
 	. = ..()
