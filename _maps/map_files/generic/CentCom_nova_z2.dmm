@@ -2277,7 +2277,6 @@
 /turf/open/floor/carpet/red,
 /area/centcom/interlink)
 "bBj" = (
-/obj/machinery/vending/dorms,
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -9527,9 +9526,6 @@
 /turf/open/indestructible/plating,
 /area/centcom/holding/cafepark)
 "jYL" = (
-/obj/machinery/vending/dorms{
-	extended_inventory = 1
-	},
 /obj/effect/turf_decal/siding{
 	dir = 6
 	},
@@ -10352,12 +10348,6 @@
 	},
 /turf/open/misc/grass/planet,
 /area/centcom/holding/cafepark)
-"kZC" = (
-/obj/machinery/vending/dorms{
-	extended_inventory = 1
-	},
-/turf/open/indestructible/hotelwood,
-/area/centcom/holding/cafe)
 "kZF" = (
 /obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/north,
 /turf/open/floor/plating,
@@ -16517,11 +16507,6 @@
 	},
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/iron/dark,
-/area/centcom/holding/cafe)
-"rSN" = (
-/obj/machinery/vending/dorms,
-/obj/effect/turf_decal/weather/snow,
-/turf/open/floor/iron/showroomfloor,
 /area/centcom/holding/cafe)
 "rSQ" = (
 /obj/structure/flora/bush/flowers_pp,
@@ -69142,7 +69127,7 @@ aqf
 aqf
 aqf
 aqf
-kZC
+aUo
 aUo
 aUo
 aUo
@@ -79980,7 +79965,7 @@ doA
 doA
 nUV
 gCR
-rSN
+kKS
 kKS
 gCR
 ajj

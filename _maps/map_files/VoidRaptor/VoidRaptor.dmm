@@ -59210,7 +59210,6 @@
 /turf/closed/wall,
 /area/station/maintenance/aft/upper)
 "qnQ" = (
-/obj/machinery/vending/dorms,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
