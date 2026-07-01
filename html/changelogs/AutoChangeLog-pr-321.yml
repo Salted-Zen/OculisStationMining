@@ -1,4 +1,0 @@
-author: "XeonMations"
-delete-after: True
-changes:
-  - bugfix: "Fixed monophobia triggering when near people but inside of a container."
