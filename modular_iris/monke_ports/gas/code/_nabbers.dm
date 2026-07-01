@@ -4,7 +4,7 @@
 
 //Nabbers armor datum. Change this to change their resistances. Is now affected by armor piercing/etc
 //By default, this is a way easier method of balancing a species rather than directly affecting burn/brute_mod, as this takes into account AP.
-//Currently Nabbers also recieve a 5% brute damage reduction atop of this, and a 1.8x burn modifier, atop of their pre-existing heat modifiers.
+//Currently Nabbers also receive a 5% brute damage reduction atop of this, and a 1.8x burn modifier, atop of their pre-existing heat modifiers.
 //Whenever you adjust these variables, make sure to adjust their damage reduction, heat modifiers, and burn vulnerability to prevent scaling issues.
 //All values are currently temporary and will require further balancing as eye protection, and nabber nukie modsuits are added.
 

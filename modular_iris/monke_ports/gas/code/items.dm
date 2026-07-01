@@ -146,7 +146,7 @@
 		var/obj/machinery/computer/C = target
 		C.attack_alien(user)
 
-                      //TRAITOR ITEMS\\
+//TRAITOR ITEMS\\
 
 /datum/uplink_item/device_tools/nabber_energyblades
 	name = "Energy Projector Attachment Case (EPAC)"
