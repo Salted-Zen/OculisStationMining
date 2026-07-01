@@ -12121,33 +12121,8 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/item/stamp/granted{
-	pixel_x = -6;
-	pixel_y = 0
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 4
-	},
-/obj/structure/table,
-/obj/item/paper_bin/carbon{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/pen{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/stamp/denied{
-	pixel_x = -6;
-	pixel_y = 6
-	},
-/obj/item/stamp/granted{
 	pixel_x = -6
 	},
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/smooth_edge{
 	dir = 8
 	},
@@ -14277,27 +14252,6 @@
 /obj/item/stamp/granted{
 	pixel_x = -7;
 	pixel_y = 2
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/table/wood,
-/obj/item/folder/yellow{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/stamp/head/qm{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/stamp/denied{
-	pixel_x = -7;
-	pixel_y = 9
-	},
-/obj/item/stamp/granted{
-	pixel_x = -7;
-	pixel_y = 1
 	},
 /turf/open/floor/carpet/black,
 /area/station/command/heads_quarters/qm)
@@ -20105,14 +20059,6 @@
 	dir = 8
 	},
 /obj/machinery/airalarm/directional/south,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/chair/comfy{
-	color = "#596479";
-	dir = 8
-	},
 /turf/open/floor/wood,
 /area/station/security/prison/garden)
 "fOm" = (
@@ -23498,33 +23444,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/table/wood,
-/obj/item/stamp/denied{
-	pixel_x = -7;
-	pixel_y = 9
-	},
-/obj/item/stamp/granted{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/obj/item/folder/red{
-	pixel_x = 11;
-	pixel_y = 4
-	},
-/obj/item/folder/blue{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stamp/centcom{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/green,
 /area/station/command/heads_quarters/nt_rep)
 "gLi" = (
@@ -24108,16 +24027,6 @@
 	dir = 4
 	},
 /obj/machinery/newscaster/directional/west,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/chair/comfy{
-	color = "#596479";
-	dir = 4
-	},
-/obj/machinery/newscaster/directional/west,
-/obj/machinery/airalarm/directional/south,
 /turf/open/floor/wood,
 /area/station/security/prison/garden)
 "gSd" = (
@@ -35705,33 +35614,6 @@
 	pixel_x = -7;
 	pixel_y = 2
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/table/wood,
-/obj/item/folder/blue{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stamp/head/hop{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stack/package_wrap{
-	pixel_y = -10
-	},
-/obj/item/hand_labeler{
-	pixel_y = -10
-	},
-/obj/item/stamp/denied{
-	pixel_x = -7;
-	pixel_y = 9
-	},
-/obj/item/stamp/granted{
-	pixel_x = -7;
-	pixel_y = 1
-	},
 /turf/open/floor/carpet/executive,
 /area/station/command/heads_quarters/hop)
 "kaU" = (
@@ -40185,26 +40067,6 @@
 /obj/item/stamp/granted{
 	pixel_x = -7;
 	pixel_y = 2
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 4
-	},
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/obj/item/stamp/denied{
-	pixel_x = -7;
-	pixel_y = 9
-	},
-/obj/item/stamp/granted{
-	pixel_x = -7;
-	pixel_y = 1
 	},
 /turf/open/floor/iron/smooth_edge{
 	dir = 8
@@ -68516,14 +68378,6 @@
 /area/station/commons/lounge)
 "sSL" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 5
-	},
-/obj/effect/turf_decal/bot,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
 /obj/effect/spawner/random/vending/colavend,
@@ -76566,9 +76420,6 @@
 /obj/item/folder/blue{
 	pixel_x = 4
 	},
-/obj/item/stamp/head/captain{
-	pixel_x = 4
-	},
 /obj/item/stamp/denied{
 	pixel_x = -6;
 	pixel_y = 4
@@ -76576,35 +76427,6 @@
 /obj/item/stamp/granted{
 	pixel_x = -6;
 	pixel_y = -1
-	},
-/obj/item/coin/adamantine{
-	pixel_x = -2;
-	pixel_y = 16
-	},
-/obj/machinery/door/window/brigdoor/left/directional/east{
-	name = "Captain's Desk";
-	req_access = list("captain")
-	},
-/obj/item/melee/chainofcommand{
-	pixel_y = 5
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/table/wood,
-/obj/item/folder/blue{
-	pixel_x = 4
-	},
-/obj/item/stamp/head/captain{
-	pixel_x = 4
-	},
-/obj/item/stamp/denied{
-	pixel_x = -6;
-	pixel_y = 4
-	},
-/obj/item/stamp/granted{
-	pixel_x = -6
 	},
 /obj/item/coin/adamantine{
 	pixel_x = -2;
