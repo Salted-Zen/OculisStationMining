@@ -514,6 +514,10 @@
 	for(var/datum/quirk/candidate as anything in target_quirks) // NOVA EDIT CHANGE - ORIGINAL : for(var/datum/quirk/candidate as anything in quirks)
 		if(from_scan && (candidate.quirk_flags & QUIRK_HIDE_FROM_SCAN))
 			continue
+		// OCULIS EDIT ADDITION START
+		if(candidate.hidden)
+			continue
+		// OCULIS EDIT ADDITION END
 		switch(category)
 			if(CAT_QUIRK_MAJOR_DISABILITY)
 				if(candidate.value >= -4)
