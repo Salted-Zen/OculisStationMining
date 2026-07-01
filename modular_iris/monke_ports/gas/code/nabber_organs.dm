@@ -115,4 +115,11 @@
 	if(chem.type == /datum/reagent/toxin/plasma || chem.type == /datum/reagent/toxin/hot_ice)
 		chem.toxpwr = 0
 		owner.adjust_oxy_loss(-0.5 * REM * seconds_per_tick, updating_health = FALSE)
+
 #undef ORGAN_ICON_NABBER
+#undef NABBER_COLD_THRESHOLD_1
+#undef NABBER_COLD_THRESHOLD_2
+#undef NABBER_COLD_THRESHOLD_3
+#undef NABBER_HEAT_THRESHOLD_1
+#undef NABBER_HEAT_THRESHOLD_2
+#undef NABBER_HEAT_THRESHOLD_3

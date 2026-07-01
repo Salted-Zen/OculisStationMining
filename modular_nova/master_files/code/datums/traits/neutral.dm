@@ -335,6 +335,7 @@ GLOBAL_LIST_INIT(possible_snout_sensitivities, list(
 #undef SEVERITY_STUN
 #undef SEVERITY_SNEEZE
 #undef SEVERITY_KNOCKDOWN
+#undef SEVERITY_BLEP
 
 /datum/quirk/overweight
 	name = "Overweight"

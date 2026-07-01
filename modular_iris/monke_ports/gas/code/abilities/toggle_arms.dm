@@ -146,7 +146,7 @@
 
 /datum/action/cooldown/toggle_arms/proc/hit_by_projectile(mob/living/nabber, obj/projectile/hitting_projectile, def_zone) //stolen from sleeping carp my beloved
 	SIGNAL_HANDLER
-	if(blade_type == (NABBER_ARM_TYPE_SYNDICATE || NABBER_ARM_TYPE_NUCLEAR))
+	if(blade_type == (NABBER_ARM_TYPE_SYNDICATE))
 		if(hitting_projectile.reflectable == TRUE) //Should only work on very few projectiles.
 			nabber.visible_message(
 				span_bolddanger("[nabber] deflects [hitting_projectile] aside with a shower of sparks! [nabber.p_They()] can deflect energy projectiles with [nabber.p_their()] glowing armblades!"),
