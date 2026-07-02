@@ -2547,6 +2547,12 @@
 "aDC" = (
 /turf/closed/indestructible/opshuttle,
 /area/centcom/holding/cafe)
+"aDO" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "aDQ" = (
 /obj/machinery/door/window/left/directional/north{
 	name = "Pet Pen"
@@ -6719,6 +6725,12 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/centcom/castor/engineering/atmospherics)
+"dfx" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "dfI" = (
 /obj/structure/cable,
 /turf/open/floor/engine,
@@ -7253,11 +7265,6 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrous_input,
 /turf/open/floor/engine/n2o,
 /area/centcom/castor/engineering/atmospherics)
-"dDo" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/east,
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/south,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "dDw" = (
 /obj/structure/chair/office,
 /turf/open/floor/wood,
@@ -9792,11 +9799,6 @@
 "fVc" = (
 /turf/open/water/hot_spring/cafe,
 /area/centcom/holding/cafepark)
-"fVl" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/north,
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/west,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "fWb" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/light_emitter/podbay,
@@ -10342,10 +10344,6 @@
 /obj/machinery/power/turbine/inlet_compressor,
 /turf/open/floor/engine/vacuum,
 /area/centcom/castor/engineering/incinerator)
-"gus" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/south,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "guw" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/computer/records/medical{
@@ -10501,6 +10499,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
 /area/centcom/central_command_areas/evacuation/ship)
+"gBq" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "gCe" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -11377,6 +11381,12 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/centcom/holding/cafe)
+"hqE" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "hqU" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/large,
@@ -13833,6 +13843,12 @@
 	},
 /turf/open/floor/engine,
 /area/centcom/castor/engineering/hfr)
+"jVD" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "jVN" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/camera/directional/north,
@@ -16977,10 +16993,6 @@
 	dir = 4
 	},
 /area/centcom/castor/control)
-"mSs" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/north,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "mSw" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
@@ -17492,6 +17504,12 @@
 	},
 /turf/open/floor/engine,
 /area/centcom/castor/engineering/hfr)
+"nmJ" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "nna" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/bot,
@@ -17761,6 +17779,10 @@
 "nDE" = (
 /turf/open/floor/carpet/purple,
 /area/centcom/holding/cafepark)
+"nEv" = (
+/obj/structure/railing,
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "nFi" = (
 /obj/structure/curtain,
 /obj/machinery/shower/directional/north,
@@ -18427,11 +18449,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/dark/pattern_1,
 /area/centcom/central_command_areas/hallway)
-"omM" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/north,
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/east,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "onL" = (
 /obj/structure/chair/comfy/brown,
 /obj/machinery/camera/directional/east,
@@ -18448,6 +18465,12 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
+"oop" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "ooD" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/glass/waterbottle{
@@ -18573,12 +18596,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured_large,
 /area/centcom/central_command_areas/evacuation/ship)
-"ouf" = (
-/obj/modular_map_root/interlink{
-	key = "diorama"
-	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/centcom/interlink)
 "oug" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syringes,
@@ -24165,10 +24182,6 @@
 	dir = 8
 	},
 /area/centcom/holding/cafepark)
-"twW" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/east,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "twX" = (
 /obj/machinery/requests_console/auto_name/directional/west,
 /turf/open/floor/iron/smooth,
@@ -25360,11 +25373,6 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/indestructible/plating,
 /area/centcom/holding/cafepark)
-"uIp" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/south,
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/west,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "uIP" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/lattice,
@@ -25381,10 +25389,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/castor/security_office_one)
-"uJg" = (
-/obj/structure/window/reinforced/survival_pod/indestructible/spawner/directional/west,
-/turf/open/floor/plating,
-/area/centcom/interlink)
 "uJC" = (
 /obj/structure/flora/tree/palm,
 /obj/item/toy/plush/beeplushie{
@@ -28437,6 +28441,10 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/wood,
 /area/centcom/castor/sectorial_internal_affairs_administrator)
+"xvA" = (
+/obj/structure/flora/tree/jungle/style_random,
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "xwe" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
@@ -45669,12 +45677,12 @@ qhp
 qhp
 qhp
 qhp
-fVl
-uJg
-uJg
-uJg
-uJg
-uIp
+qhp
+qhp
+qhp
+qhp
+qhp
+qhp
 qhp
 gQv
 lIX
@@ -45926,12 +45934,12 @@ qhp
 qhp
 qhp
 qhp
-mSs
-rLK
-rLK
-rLK
-rLK
-gus
+qhp
+qhp
+oop
+hqE
+aDO
+qhp
 qhp
 gQv
 kxy
@@ -46183,13 +46191,13 @@ qhp
 qhp
 qhp
 qhp
-mSs
-rLK
-rLK
-rLK
-rLK
-gus
-ouf
+qhp
+qhp
+jVD
+xvA
+nEv
+qhp
+qhp
 gQv
 kxy
 cNw
@@ -46440,12 +46448,12 @@ qhp
 qhp
 qhp
 qhp
-mSs
-rLK
-rLK
-rLK
-rLK
-gus
+qhp
+qhp
+gBq
+nmJ
+dfx
+qhp
 qhp
 gQv
 kxy
@@ -46697,12 +46705,12 @@ qhp
 qhp
 qhp
 qhp
-omM
-twW
-twW
-twW
-twW
-dDo
+qhp
+qhp
+qhp
+qhp
+qhp
+qhp
 qhp
 gQv
 kxy
