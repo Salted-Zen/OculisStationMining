@@ -32,7 +32,6 @@
 		// NOVA EDIT ADDITION END
 		// OCULIS EDIT START
 		#include "map_files\oceanpubby\oceanpubby.dmm"
-		#include "map_files\RemoraStation\RemoraStation.dmm"
 		#include "map_files\KiloStation_Oculis\KiloStation_Oculis.dmm"
 		// OCULIS EDIT END
 	#endif

@@ -76420,6 +76420,14 @@
 /obj/item/folder/blue{
 	pixel_x = 4
 	},
+/obj/machinery/door/window/brigdoor/left/directional/east{
+	name = "Captain's Desk";
+	req_access = list("captain")
+	},
+/obj/item/stamp/head/captain{
+	pixel_y = 11;
+	pixel_x = -6
+	},
 /obj/item/stamp/denied{
 	pixel_x = -6;
 	pixel_y = 4
@@ -76428,16 +76436,12 @@
 	pixel_x = -6;
 	pixel_y = -1
 	},
+/obj/item/melee/chainofcommand{
+	pixel_y = 5
+	},
 /obj/item/coin/adamantine{
 	pixel_x = -2;
 	pixel_y = 16
-	},
-/obj/machinery/door/window/brigdoor/left/directional/east{
-	name = "Captain's Desk";
-	req_access = list("captain")
-	},
-/obj/item/melee/chainofcommand{
-	pixel_y = 5
 	},
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain)
