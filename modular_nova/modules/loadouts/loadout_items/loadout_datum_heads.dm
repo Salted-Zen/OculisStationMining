@@ -724,12 +724,6 @@
 	restricted_roles = list(ALL_JOBS_SEC, ALL_JOBS_DEPTGUARD)	// OCULIS EDIT - ORIGINAL: restricted_roles = list(ALL_JOBS_SEC)
 	group = "Guard"
 
-/datum/loadout_item/head/officercap
-	name = "Security Cap"
-	item_path = /obj/item/clothing/head/security_cap
-	restricted_roles = list(ALL_JOBS_SEC, ALL_JOBS_DEPTGUARD)	// OCULIS EDIT - ORIGINAL: restricted_roles = list(ALL_JOBS_SEC)
-	group = "Guard"
-
 /datum/loadout_item/head/officergarrisoncap
 	name = "Guard Cap - Garrison"
 	item_path = /obj/item/clothing/head/security_garrison
@@ -755,8 +749,8 @@
 	group = "Guard"
 
 /datum/loadout_item/head/ushanka/sec
-	name = "Security Ushanka"
-	item_path = /obj/item/clothing/head/costume/ushanka/sec
+	name = "Guard Ushanka (Colorable)"
+	item_path = /obj/item/clothing/head/costume/ushanka/sec/red
 	restricted_roles = list(ALL_JOBS_SEC, ALL_JOBS_DEPTGUARD)	// OCULIS EDIT - ORIGINAL: restricted_roles = list(ALL_JOBS_SEC)
 	group = "Guard"
 
