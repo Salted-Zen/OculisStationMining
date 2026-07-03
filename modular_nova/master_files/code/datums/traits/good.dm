@@ -158,6 +158,7 @@
 
 	old_appendix = null
 
+/* // OCULIS EDIT REMOVAL START
 /datum/quirk/sensitive_hearing
 	name = "Sensitive Hearing"
 	desc = "You can hear even the quietest of sounds, but you're more vulnerable to hearing damage as a result. \
@@ -193,3 +194,4 @@
 	// Doing ears.damage_multiplier /= 2 is not safe because the ears may've
 	// changed, so just set it to the initial value of the current ears
 	ears.damage_multiplier = initial(ears.damage_multiplier)
+*/ // OCULIS EDIT REMOVAL END
