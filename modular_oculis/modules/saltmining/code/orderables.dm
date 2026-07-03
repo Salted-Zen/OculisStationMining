@@ -30,7 +30,7 @@
 /datum/orderable_item/mining/surpluscrate
 	purchase_path = /obj/structure/closet/crate/necropolis/surplus
 	desc = "An old busted open necropolis crate from an old science warehouse. Does not require a key, however it has a sticker on it that reads <b> Quality Not Guranteed <b/>."
-	cost_per_order = 5000
+	cost_per_order = 3500 //EXPERIMENTAL, ORIGINAL PRICE IS 5000. THIS MIGHT BE TOO LOW BUT WE ARE ALL HERE TO HAVE FUN.
 
 /datum/orderable_item/wasteland //This is for any weapon that uses ammo (and the ammo) for shaft miners, and by extension SHOULD have a wasteland pin
 	category_index = CATEGORY_WASTELAND_GUNS
