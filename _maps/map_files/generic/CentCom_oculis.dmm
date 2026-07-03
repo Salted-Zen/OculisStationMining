@@ -786,6 +786,20 @@
 /obj/item/toy/cards/deck,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
+"alV" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/centcom{
+	name = "SectCom Hangar"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/access/all/admin/general,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/ferry/hallway)
 "alW" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/railing,
@@ -1351,13 +1365,6 @@
 	},
 /turf/open/misc/grass/planet,
 /area/centcom/holding/cafepark)
-"asm" = (
-/obj/machinery/air_sensor/engine_chamber{
-	chamber_id = "centcomengine"
-	},
-/obj/structure/railing,
-/turf/open/floor/engine,
-/area/centcom/castor/engineering/engine)
 "asp" = (
 /obj/machinery/hydroponics/constructable/fullupgrade{
 	dir = 1
@@ -2547,12 +2554,6 @@
 "aDC" = (
 /turf/closed/indestructible/opshuttle,
 /area/centcom/holding/cafe)
-"aDO" = (
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "aDQ" = (
 /obj/machinery/door/window/left/directional/north{
 	name = "Pet Pen"
@@ -5568,6 +5569,15 @@
 /obj/machinery/cell_charger,
 /turf/open/floor/iron/smooth,
 /area/centcom/castor/engineering/foyer)
+"bWo" = (
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
+/obj/effect/mapping_helpers/airalarm/link{
+	chamber_id = "sectcomengine"
+	},
+/obj/effect/mapping_helpers/airalarm/engine_access,
+/turf/open/floor/engine,
+/area/centcom/castor/engineering/engine)
 "bWy" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/trimline/yellow/arrow_ccw{
@@ -6725,12 +6735,6 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/centcom/castor/engineering/atmospherics)
-"dfx" = (
-/obj/structure/railing{
-	dir = 6
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "dfI" = (
 /obj/structure/cable,
 /turf/open/floor/engine,
@@ -9796,6 +9800,12 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
+"fUR" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "fVc" = (
 /turf/open/water/hot_spring/cafe,
 /area/centcom/holding/cafepark)
@@ -10499,12 +10509,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
 /area/centcom/central_command_areas/evacuation/ship)
-"gBq" = (
-/obj/structure/railing{
-	dir = 5
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "gCe" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -10648,6 +10652,12 @@
 "gJA" = (
 /turf/open/floor/iron/dark/smooth_edge,
 /area/centcom/castor/hallway_three)
+"gJQ" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "gJX" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -11161,6 +11171,20 @@
 /obj/effect/mapping_helpers/airlock/access/all/admin/captain,
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/central_command_areas/hallway)
+"hin" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/admin/general,
+/obj/machinery/door/airlock/centcom{
+	name = "SectCom Hangar"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/ferry)
 "hiL" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
@@ -11381,12 +11405,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/centcom/holding/cafe)
-"hqE" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "hqU" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/large,
@@ -13237,20 +13255,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/castor/hallway_one)
-"jlZ" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/access/all/admin/general,
-/obj/machinery/door/airlock/centcom{
-	name = "CentCom Hangar"
-	},
-/turf/open/floor/iron,
-/area/centcom/central_command_areas/ferry)
 "jmI" = (
 /obj/item/toy/beach_ball,
 /obj/effect/spawner/liquids_spawner,
@@ -13311,20 +13315,6 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/centcom/interlink)
-"joC" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/centcom{
-	name = "CentCom Hangar"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/access/all/admin/general,
-/turf/open/floor/iron,
-/area/centcom/central_command_areas/ferry/hallway)
 "jpr" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/bot,
@@ -13843,12 +13833,6 @@
 	},
 /turf/open/floor/engine,
 /area/centcom/castor/engineering/hfr)
-"jVD" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "jVN" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/camera/directional/north,
@@ -13879,17 +13863,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/castor/hallway_one)
-"jXf" = (
-/obj/docking_port/stationary{
-	dwidth = 8;
-	height = 7;
-	json_key = "cargo";
-	name = "CentCom";
-	shuttle_id = "cargo_away";
-	width = 20
-	},
-/turf/open/floor/engine,
-/area/centcom/central_command_areas/supply)
 "jXy" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /obj/structure/cable,
@@ -14243,6 +14216,13 @@
 /obj/item/toy/crayon/spraycan,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
+"kqq" = (
+/obj/machinery/door/airlock/centcom{
+	name = "SectCom Supplypod Loading"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/admin/storage,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/supplypod)
 "kqs" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/atmos/glass,
@@ -14945,6 +14925,34 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
+"laI" = (
+/obj/docking_port/stationary{
+	dheight = 3;
+	dir = 8;
+	dwidth = 8;
+	height = 11;
+	shuttle_id = "ferry_away";
+	name = "CentCom Ferry Dock";
+	roundstart_template = /datum/map_template/shuttle/ferry/nova;
+	width = 20
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/docking_port/stationary{
+	dheight = 3;
+	dir = 8;
+	dwidth = 8;
+	height = 11;
+	shuttle_id = "ferry_away";
+	name = "SectCom Ferry Dock";
+	roundstart_template = /datum/map_template/shuttle/ferry;
+	width = 20
+	},
+/turf/open/floor/engine,
+/area/centcom/central_command_areas/ferry)
 "laX" = (
 /obj/structure/fans/tiny/invisible,
 /obj/structure/railing/corner{
@@ -17504,12 +17512,6 @@
 	},
 /turf/open/floor/engine,
 /area/centcom/castor/engineering/hfr)
-"nmJ" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "nna" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/bot,
@@ -17779,10 +17781,6 @@
 "nDE" = (
 /turf/open/floor/carpet/purple,
 /area/centcom/holding/cafepark)
-"nEv" = (
-/obj/structure/railing,
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "nFi" = (
 /obj/structure/curtain,
 /obj/machinery/shower/directional/north,
@@ -18465,12 +18463,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
-"oop" = (
-/obj/structure/railing{
-	dir = 9
-	},
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "ooD" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/glass/waterbottle{
@@ -18847,19 +18839,6 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/iron/dark,
 /area/centcom/castor/engineering/hfr)
-"oBO" = (
-/obj/docking_port/stationary{
-	dheight = 3;
-	dir = 8;
-	dwidth = 8;
-	height = 11;
-	shuttle_id = "ferry_away";
-	name = "CentCom Ferry Dock";
-	roundstart_template = /datum/map_template/shuttle/ferry/nova;
-	width = 20
-	},
-/turf/open/floor/engine,
-/area/centcom/central_command_areas/ferry)
 "oCh" = (
 /obj/machinery/light/floor,
 /turf/open/floor/iron/smooth_large,
@@ -18974,6 +18953,12 @@
 	icon_state = "darkfull"
 	},
 /area/centcom/holding/cafepark)
+"oGG" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "oGW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -19591,6 +19576,18 @@
 	icon_state = "floor"
 	},
 /area/centcom/holding/cafepark)
+"piP" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 25;
+	height = 50;
+	json_key = "emergency";
+	name = "SectCom Emergency Shuttle Dock";
+	shuttle_id = "emergency_away";
+	width = 50
+	},
+/turf/open/space/basic,
+/area/space)
 "pjF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
@@ -19635,6 +19632,12 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/castor/arrivals)
+"pme" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "pmJ" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
@@ -19871,6 +19874,10 @@
 /obj/structure/hedge,
 /turf/open/floor/iron,
 /area/centcom/castor/hallway_two)
+"pzL" = (
+/obj/structure/flora/tree/jungle/style_random,
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "pAe" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -20683,6 +20690,13 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/castor/arrivals)
+"qma" = (
+/obj/machinery/air_sensor/engine_chamber{
+	chamber_id = "sectcomengine"
+	},
+/obj/structure/railing,
+/turf/open/floor/engine,
+/area/centcom/castor/engineering/engine)
 "qme" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -21104,6 +21118,12 @@
 /obj/item/lighter,
 /turf/open/indestructible/carpet,
 /area/centcom/holding/cafe)
+"qHy" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "qHT" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/chair/sofa/bench/left{
@@ -21168,13 +21188,6 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/carpet/black,
 /area/centcom/castor/intern_office)
-"qKe" = (
-/obj/machinery/door/airlock/centcom{
-	name = "CentCom Supplypod Loading"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/admin/storage,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/supplypod)
 "qKi" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -21425,6 +21438,10 @@
 	icon_state = "floor"
 	},
 /area/centcom/holding/cafepark)
+"qWa" = (
+/obj/structure/railing,
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "qWc" = (
 /obj/machinery/shower/directional/west,
 /turf/open/indestructible/bathroom,
@@ -21561,6 +21578,12 @@
 	icon_state = "white"
 	},
 /area/centcom/holding/cafepark)
+"rct" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "rcz" = (
 /obj/effect/turf_decal/tile/neutral/full,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -22996,15 +23019,6 @@
 	},
 /turf/open/floor/iron/dark/brick_half,
 /area/centcom/castor/arrivals)
-"sxD" = (
-/obj/machinery/airalarm/directional/north,
-/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
-/obj/effect/mapping_helpers/airalarm/link{
-	chamber_id = "centcomengine"
-	},
-/obj/effect/mapping_helpers/airalarm/engine_access,
-/turf/open/floor/engine,
-/area/centcom/castor/engineering/engine)
 "sxE" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -23015,18 +23029,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/castor/control)
-"sxF" = (
-/obj/docking_port/stationary{
-	dir = 2;
-	dwidth = 25;
-	height = 50;
-	json_key = "emergency";
-	name = "CentCom Emergency Shuttle Dock";
-	shuttle_id = "emergency_away";
-	width = 50
-	},
-/turf/open/space/basic,
-/area/space)
 "sxU" = (
 /turf/closed/indestructible/steel,
 /area/centcom/castor/forest)
@@ -25956,6 +25958,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/centcom/castor/customs)
+"vgh" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/misc/grass/planet,
+/area/centcom/castor/hallway_one)
 "vgo" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -27065,6 +27073,17 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/centcom/castor/engineering/incinerator)
+"wjd" = (
+/obj/docking_port/stationary{
+	dwidth = 8;
+	height = 7;
+	json_key = "cargo";
+	name = "SectCom";
+	shuttle_id = "cargo_away";
+	width = 20
+	},
+/turf/open/floor/engine,
+/area/centcom/central_command_areas/supply)
 "wjs" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 4
@@ -28441,10 +28460,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/wood,
 /area/centcom/castor/sectorial_internal_affairs_administrator)
-"xvA" = (
-/obj/structure/flora/tree/jungle/style_random,
-/turf/open/misc/grass/planet,
-/area/centcom/castor/hallway_one)
 "xwe" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
@@ -35086,11 +35101,11 @@ dPA
 dPA
 sgU
 knq
-qKe
+kqq
 uuZ
 uuZ
 uuZ
-qKe
+kqq
 hiL
 kao
 hiL
@@ -35343,11 +35358,11 @@ sgU
 sgU
 sgU
 knq
-qKe
+kqq
 pCR
 pCR
 pCR
-qKe
+kqq
 hiL
 kao
 hiL
@@ -36885,11 +36900,11 @@ smL
 vwj
 smL
 euM
-qKe
+kqq
 uuZ
 uuZ
 uuZ
-qKe
+kqq
 eYT
 eYT
 sOh
@@ -37142,11 +37157,11 @@ smL
 vwj
 smL
 euM
-qKe
+kqq
 pCR
 pCR
 pCR
-qKe
+kqq
 eYT
 eYT
 sOh
@@ -37915,7 +37930,7 @@ ess
 ess
 ess
 ess
-qKe
+kqq
 ess
 ess
 ess
@@ -40222,7 +40237,7 @@ kQC
 kQC
 kQC
 kQC
-oBO
+laI
 kQC
 kQC
 jSm
@@ -41770,9 +41785,9 @@ suB
 unu
 nCf
 paz
-jlZ
+hin
 tix
-jlZ
+hin
 wsx
 idj
 oml
@@ -42284,9 +42299,9 @@ rVO
 hsV
 cln
 vMC
-joC
+alV
 tEM
-joC
+alV
 jUz
 jUz
 sPP
@@ -45936,9 +45951,9 @@ qhp
 qhp
 qhp
 qhp
-oop
-hqE
-aDO
+qHy
+rct
+pme
 qhp
 qhp
 gQv
@@ -46193,9 +46208,9 @@ qhp
 qhp
 qhp
 qhp
-jVD
-xvA
-nEv
+fUR
+pzL
+qWa
 qhp
 qhp
 gQv
@@ -46450,9 +46465,9 @@ qhp
 qhp
 qhp
 qhp
-gBq
-nmJ
-dfx
+gJQ
+oGG
+vgh
 qhp
 qhp
 gQv
@@ -47001,7 +47016,7 @@ xSL
 xSL
 uNt
 hvy
-sxF
+piP
 aaa
 aaa
 aaa
@@ -56464,7 +56479,7 @@ xOx
 tRZ
 kmA
 spE
-asm
+qma
 wTJ
 xMH
 spE
@@ -57236,7 +57251,7 @@ qxK
 qxK
 pCx
 hyN
-sxD
+bWo
 hyN
 pCx
 pCx
@@ -75141,7 +75156,7 @@ sLf
 sLf
 sLf
 sLf
-jXf
+wjd
 wvZ
 pyV
 aaa
