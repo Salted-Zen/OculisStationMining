@@ -282,7 +282,7 @@
 	item_path = /obj/item/clothing/under/rank/cargo/qm
 	restricted_roles = list(JOB_QUARTERMASTER)
 	group = "Job-Locked"
-
+/*
 //SEC
 /datum/loadout_item/under/jumpsuit/imphos
 	name = "Head of Security's Naval Uniform"
@@ -367,3 +367,4 @@
 	item_path = /obj/item/clothing/under/rank/security/nova/utility
 	restricted_roles = list(ALL_JOBS_SEC, ALL_JOBS_DEPTGUARD)	// OCULIS EDIT - ORIGINAL: restricted_roles = list(ALL_JOBS_SEC)
 	group = "Job-Locked"
+*/
