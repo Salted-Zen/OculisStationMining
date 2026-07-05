@@ -85,6 +85,8 @@ THOR RIFLE
 		new /obj/item/ammo_box/magazine/pksmgmag(src)
 
 /obj/item/ammo_casing/energy/kinetic/smg
+	name = "'Rapier' Mining SMG Casing"
+	desc = "A singular round for the 'Rapier' Mining SMG, the first ammunition ever designed for a Mining Wasteland Gun."
 	projectile_type = /obj/projectile/kinetic/smg
 	select_name = "kinetic"
 	e_cost = 0
@@ -383,7 +385,7 @@ THOR RIFLE
 
 /obj/item/ammo_box/magazine/autoshotgun
 	name = "20 Gauge Shotgun Magazine"
-	desc = "A single magazine capable of holding 12 rounds of 20 gauge mining hydra shells."
+	desc = "A single magazine capable of holding 15 rounds of 20 gauge mining hydra shells."
 	icon = 'modular_oculis/modules/saltmining/icons/ammo_item.dmi'
 	icon_state = "proto20gmag"
 	base_icon_state = "proto20gmag"
