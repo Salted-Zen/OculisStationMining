@@ -185,7 +185,12 @@
 
 /obj/item/kinetic_crusher/sickle/Initialize(mapload)
 	. = ..()
-	qdel(GetComponent(/datum/component/two_handed)) //OCULIS EDIT - SALTMINING - THE MACHETE WAS ALWAYS MEANT TO BE ONE HANDED, NOT WIELDED
+	qdel(GetComponent(/datum/component/two_handed))
+
+/obj/item/kinetic_crusher/sickle/update_icon_state() //this fixes trying to two hand the sickle making it dissapear
+	. = ..()
+	if(base_icon_state == initial(base_icon_state))
+		inhand_icon_state = "crushersickle"
 
 /obj/item/kinetic_crusher/sickle/examine(mob/living/user)
 	. += span_notice("Mark a large creature with a destabilizing force with right-click, then hit them in melee to do <b>[force + detonation_damage]</b> damage.")
