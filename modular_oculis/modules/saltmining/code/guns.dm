@@ -240,12 +240,13 @@ THOR RIFLE
 	pin = /obj/item/firing_pin/wastes
 
 /obj/item/gun/ballistic/revolver/govmining/attack_self(mob/living/user) //you do a sick flip when you empty the rounds
+	. = ..()
 	SpinAnimation(4,2)
 	if(flip_cooldown <= world.time)
 		flip_cooldown = (world.time + 30)
 		user.visible_message(span_notice("[user] spins [src] around [user.p_their()] finger by the trigger, ejecting any loaded cartridges!"))
 		playsound(src, 'sound/items/handling/ammobox_pickup.ogg', 20, FALSE)
-	. = ..()
+
 
 /obj/item/gun/ballistic/revolver/govmining/give_manufacturer_examine()
 	return //NO MANUFACTURER STAMP
