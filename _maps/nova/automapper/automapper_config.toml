@@ -504,13 +504,13 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [115, 123, 2]
 trait_name = "Station"
 
-#Catwalkstation Arrivals
-[templates.catwalkstation_arrivals]
-map_files = ["catwalkstation_arrivals.dmm"]
-directory = "_maps/nova/automapper/templates/catwalkstation/"
-required_map = "CatwalkStation_2023.dmm"
-coordinates = [120, 65, 1]
-trait_name = "Station"
+# Catwalkstation Arrivals - Replaced with Oculis - Catwalkstation Arrivals
+# [templates.catwalkstation_arrivals]
+# map_files = ["catwalkstation_arrivals.dmm"]
+# directory = "_maps/nova/automapper/templates/catwalkstation/"
+# required_map = "CatwalkStation_2023.dmm"
+# coordinates = [120, 65, 1]
+# trait_name = "Station"
 
 #Catwalkstation Cryo
 [templates.catwalkstation_cryo]
@@ -751,4 +751,12 @@ map_files = ["oceanpubby_explorer_spawns.dmm"]
 directory = "_maps/iris/automapper/templates/oceanpubby/"
 required_map = "oceanpubby.dmm"
 coordinates = [139, 172, 1]
+trait_name = "Station"
+
+# Oculis - Catwalkstation Arrivals
+[templates.catwalkstation_arrivals_oculis]
+map_files = ["catwalkstation_arrivals_oculis.dmm"]
+directory = "_maps/iris/automapper/templates/catwalkstation/"
+required_map = "CatwalkStation_2023.dmm"
+coordinates = [119, 58, 1]
 trait_name = "Station"
