@@ -424,9 +424,7 @@
 /turf/open/floor/iron/smooth,
 /area/station/security/lockers)
 "ahG" = (
-/obj/structure/fence/post{
-	dir = 2
-	},
+/obj/structure/fence/post,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "ahK" = (
@@ -1040,8 +1038,7 @@
 /area/station/maintenance/port/aft)
 "apm" = (
 /obj/structure/toilet/greyscale{
-	cistern_open = 1;
-	dir = 2
+	cistern_open = 1
 	},
 /obj/machinery/light/small/dim/directional/west,
 /turf/open/floor/iron/showroomfloor,
@@ -2818,9 +2815,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/station/cargo/warehouse)
 "aOG" = (
-/obj/structure/fence/post{
-	dir = 2
-	},
+/obj/structure/fence/post,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
 "aOU" = (
@@ -2878,10 +2873,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "aPA" = (
-/obj/structure/fence{
-	dir = 2;
-	pixel_y = 0
-	},
+/obj/structure/fence,
 /obj/structure/sign/warning/directional/south,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
@@ -3163,7 +3155,6 @@
 	dir = 4
 	},
 /obj/machinery/button/door/directional/east{
-	pixel_y = 0;
 	id = "paramedic_shutters";
 	name = "Shutters button";
 	pixel_x = 23;
@@ -5913,8 +5904,7 @@
 /area/station/engineering/atmos)
 "bEZ" = (
 /obj/structure/toilet/greyscale{
-	cistern_open = 1;
-	dir = 2
+	cistern_open = 1
 	},
 /obj/machinery/light/small/directional/north,
 /obj/effect/spawner/random/entertainment/cigar,
@@ -8101,10 +8091,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "ckL" = (
-/obj/structure/fence/corner{
-	dir = 2;
-	pixel_y = 0
-	},
+/obj/structure/fence/corner,
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/underground/explored)
 "ckN" = (
@@ -8885,9 +8872,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/starboard/fore)
 "cvJ" = (
-/obj/structure/fence/cut/medium{
-	dir = 2
-	},
+/obj/structure/fence/cut/medium,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "cvN" = (
@@ -11848,9 +11833,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "dmw" = (
-/obj/structure/fence/end{
-	dir = 2
-	},
+/obj/structure/fence/end,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
 "dmI" = (
@@ -14694,9 +14677,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "eeR" = (
-/obj/structure/stairs/south{
-	dir = 2
-	},
+/obj/structure/stairs/south,
 /turf/open/floor/iron/stairs/medium{
 	dir = 1
 	},
@@ -17228,9 +17209,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/central)
 "eRE" = (
-/obj/structure/fence/post{
-	dir = 2
-	},
+/obj/structure/fence/post,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "eRH" = (
@@ -22067,8 +22046,7 @@
 /area/station/science/ordnance/freezerchamber)
 "gme" = (
 /obj/machinery/conveyor{
-	id = "gulag";
-	dir = 2
+	id = "gulag"
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor/iron,
@@ -23835,9 +23813,7 @@
 	},
 /area/station/medical/morgue)
 "gMp" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/less_spawns)
 "gMq" = (
@@ -27721,8 +27697,7 @@
 	pixel_x = -5
 	},
 /obj/item/paper/crumpled{
-	pixel_x = 3;
-	pixel_y = 0
+	pixel_x = 3
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
@@ -28502,7 +28477,6 @@
 "icN" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/east{
-	pixel_y = 0;
 	pixel_x = 3
 	},
 /obj/structure/platform/iron,
@@ -31540,9 +31514,7 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/mine/mechbay)
 "iYD" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/genturf/blue,
 /area/icemoon/underground/unexplored/rivers/deep/shoreline)
 "iYG" = (
@@ -32331,9 +32303,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "jkX" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
 	},
@@ -35099,9 +35069,7 @@
 /turf/open/floor/stone,
 /area/station/service/bar/atrium)
 "jZo" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 8
 	},
@@ -37001,7 +36969,6 @@
 /area/station/commons/fitness)
 "kBe" = (
 /obj/machinery/atmospherics/pipe/multiz/supply/visible/layer4{
-	pixel_y = 0;
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/multiz/scrubbers/visible/layer2{
@@ -37937,10 +37904,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "kOt" = (
-/obj/structure/fence/corner{
-	dir = 2;
-	pixel_y = 0
-	},
+/obj/structure/fence/corner,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
 "kOx" = (
@@ -39031,9 +38995,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/aft)
 "lej" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "lek" = (
@@ -40645,7 +40607,6 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/multiz/supply/visible/layer4{
-	pixel_y = 0;
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -40677,7 +40638,6 @@
 /area/icemoon/surface/outdoors/nospawn)
 "lBN" = (
 /obj/machinery/door/morgue{
-	dir = 2;
 	name = "Coffin Storage";
 	req_access = list("chapel_office")
 	},
@@ -44105,9 +44065,7 @@
 /turf/open/floor/iron,
 /area/station/science/ordnance)
 "mCd" = (
-/obj/machinery/computer/operating{
-	dir = 2
-	},
+/obj/machinery/computer/operating,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/radio/intercom/directional/north,
 /obj/effect/turf_decal/bot_white,
@@ -44502,7 +44460,6 @@
 /area/station/security/prison)
 "mIc" = (
 /obj/machinery/atmospherics/pipe/multiz/supply/visible/layer4{
-	pixel_y = 0;
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/multiz/scrubbers/visible/layer2{
@@ -45126,9 +45083,7 @@
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "mSQ" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /obj/structure/sign/warning/secure_area/directional/south,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
@@ -45183,9 +45138,7 @@
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
 "mUt" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored/graveyard)
 "mUE" = (
@@ -47411,9 +47364,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "nyZ" = (
-/obj/structure/fence/corner{
-	dir = 2
-	},
+/obj/structure/fence/corner,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "nza" = (
@@ -50753,7 +50704,6 @@
 	},
 /obj/item/assembly/igniter/condenser,
 /obj/item/assembly/infra{
-	pixel_y = 0;
 	pixel_x = 5
 	},
 /obj/effect/turf_decal/siding/dark_blue/corner{
@@ -52628,7 +52578,6 @@
 	},
 /obj/item/razor,
 /obj/machinery/button/door/directional/north{
-	pixel_y = 24;
 	pixel_x = 6;
 	id = "executionshutters";
 	name = "Shutter Control"
@@ -55260,9 +55209,7 @@
 /turf/open/floor/iron,
 /area/mine/laborcamp)
 "pCG" = (
-/obj/structure/fence/corner{
-	dir = 2
-	},
+/obj/structure/fence/corner,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "pCI" = (
@@ -55641,9 +55588,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/starboard/fore)
 "pJm" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "pJu" = (
@@ -56584,9 +56529,7 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/underground/explored)
 "pWu" = (
@@ -57466,12 +57409,6 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
-"qhR" = (
-/obj/structure/fence/corner{
-	dir = 2
-	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
 "qhS" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -59787,9 +59724,7 @@
 /turf/closed/wall,
 /area/station/maintenance/fore/lesser)
 "qQk" = (
-/obj/structure/fence/cut/large{
-	dir = 2
-	},
+/obj/structure/fence/cut/large,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "qQo" = (
@@ -60669,9 +60604,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics/garden)
 "rbV" = (
-/obj/structure/fence/post{
-	dir = 2
-	},
+/obj/structure/fence/post,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/less_spawns)
 "rbY" = (
@@ -64997,9 +64930,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "snJ" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /obj/structure/sign/warning/secure_area/directional/north,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
@@ -65825,10 +65756,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
 "syG" = (
-/obj/structure/fence{
-	dir = 2;
-	pixel_y = 0
-	},
+/obj/structure/fence,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
 "syI" = (
@@ -65926,13 +65854,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/commons/dorms/laundry)
-"sAd" = (
-/obj/structure/fence/post{
-	dir = 8;
-	pixel_y = 0
-	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/surface/outdoors/nospawn)
 "sAt" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/food_or_drink/snack,
@@ -71826,9 +71747,7 @@
 /turf/open/floor/iron/dark/textured,
 /area/station/security/range)
 "ujK" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "ujP" = (
@@ -72769,7 +72688,6 @@
 /area/station/service/janitor)
 "uyi" = (
 /obj/item/chair/stool{
-	pixel_y = 0;
 	pixel_x = -5
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -74293,8 +74211,7 @@
 /area/station/maintenance/starboard/lesser)
 "uVM" = (
 /obj/structure/toilet/greyscale{
-	cistern_open = 1;
-	dir = 2
+	cistern_open = 1
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/showroomfloor,
@@ -76538,18 +76455,6 @@
 /obj/machinery/status_display/evac/directional/east,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
-"vEG" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/machinery/door/airlock/external/glass{
-	dir = 4;
-	name = "Supply Door Airlock";
-	pixel_y = 0
-	},
-/obj/effect/mapping_helpers/airlock/access/all/supply/general,
-/turf/open/floor/plating,
-/area/station/cargo/storage)
 "vEJ" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -77375,9 +77280,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "vRK" = (
-/obj/structure/fence/corner{
-	dir = 2
-	},
+/obj/structure/fence/corner,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/less_spawns)
 "vRP" = (
@@ -79206,9 +79109,7 @@
 /turf/open/floor/carpet,
 /area/station/service/chapel)
 "wvw" = (
-/obj/structure/fence/cut/medium{
-	dir = 2
-	},
+/obj/structure/fence/cut/medium,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "wvx" = (
@@ -81134,12 +81035,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"wWw" = (
-/obj/structure/fence{
-	dir = 2
-	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
 "wWM" = (
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 4
@@ -82049,9 +81944,7 @@
 /turf/closed/wall/r_wall,
 /area/station/security/prison/safe)
 "xhM" = (
-/obj/structure/fence{
-	dir = 2
-	},
+/obj/structure/fence,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/less_spawns)
 "xhV" = (
@@ -83774,9 +83667,7 @@
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
 "xFn" = (
-/obj/structure/fence/cut/large{
-	dir = 2
-	},
+/obj/structure/fence/cut/large,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "xFo" = (
@@ -84671,7 +84562,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/warm/directional/south,
-/obj/structure/sign/poster/contraband/lizard/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
 "xTO" = (
@@ -85248,9 +85138,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "yba" = (
-/obj/structure/fence/corner{
-	dir = 2
-	},
+/obj/structure/fence/corner,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/unexplored/rivers/deep/shoreline)
 "ybb" = (
@@ -85697,9 +85585,7 @@
 /turf/open/floor/iron,
 /area/station/security/prison/work)
 "yhY" = (
-/obj/structure/fence/end{
-	dir = 2
-	},
+/obj/structure/fence/end,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/less_spawns)
 "yia" = (
@@ -174985,13 +174871,13 @@ uUT
 okc
 bzD
 iwf
-wWw
+syG
 aOG
-wWw
-wWw
-wWw
+syG
+syG
+syG
 aOG
-qhR
+kOt
 iDt
 iDt
 iDt
@@ -176262,7 +176148,7 @@ syw
 aOG
 pJm
 pJm
-wWw
+syG
 fSm
 aOG
 pCG
@@ -180098,7 +179984,7 @@ iDt
 iDt
 iDt
 mxK
-qhR
+kOt
 jqT
 jqT
 kPH
@@ -183956,7 +183842,7 @@ gjq
 mxK
 pJm
 aOG
-wWw
+syG
 tSj
 szG
 xMq
@@ -185756,7 +185642,7 @@ iDt
 scw
 scw
 oZd
-qhR
+kOt
 scw
 iDt
 iDt
@@ -186010,7 +185896,7 @@ exw
 xMq
 psb
 jTf
-wWw
+syG
 uen
 hoz
 iDt
@@ -200153,7 +200039,7 @@ tjo
 tjo
 tjo
 syw
-wWw
+syG
 hxJ
 lvt
 rlq
@@ -200415,7 +200301,7 @@ gsd
 pJm
 dUm
 pJm
-wWw
+syG
 pJm
 gsd
 iDt
@@ -234595,7 +234481,7 @@ maT
 nNZ
 oSK
 maT
-vEG
+oSK
 rEr
 maT
 kDs
@@ -256886,7 +256772,7 @@ txl
 txl
 txl
 txl
-sAd
+yfW
 xgm
 uei
 tmR
@@ -258168,7 +258054,7 @@ txl
 txl
 txl
 txl
-sAd
+yfW
 ftY
 cnx
 tmR
@@ -259456,7 +259342,7 @@ txl
 txl
 txl
 utC
-sAd
+yfW
 xgm
 uei
 tmR
