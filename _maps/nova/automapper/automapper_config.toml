@@ -696,14 +696,6 @@ required_map = "NebulaStation.dmm"
 coordinates = [192, 136, 2]
 trait_name = "Station"
 
-# Iris - Nebulastation Exploration Office
-[templates.nebulastation_exploration_office_v2]
-map_files = ["nebulastation_exploration_office_v2.dmm"]
-directory = "_maps/iris/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [146 , 177, 1]
-trait_name = "Station"
-
 # Iris - Nebulastation Captain Phone
 [templates.nebulastation_captain_phone]
 map_files = ["nebulastation_captain_phone.dmm"]
@@ -766,4 +758,12 @@ map_files = ["deltastation_explorer_spawns.dmm"]
 directory = "_maps/iris/automapper/templates/deltastation/"
 required_map = "DeltaStation2.dmm"
 coordinates = [110, 189, 1]
+trait_name = "Station"
+
+# Oculis - Nebulastation Exploration Office
+[templates.nebulastation_explorer_spawns]
+map_files = ["nebulastation_explorer_spawns.dmm"]
+directory = "_maps/iris/automapper/templates/nebulastation/"
+required_map = "NebulaStation.dmm"
+coordinates = [117, 181, 1]
 trait_name = "Station"
