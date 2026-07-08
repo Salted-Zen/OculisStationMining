@@ -219,7 +219,7 @@ GLOBAL_LIST_INIT(phobia_objs, list(
 		/obj/item/toy/figure/captain,
 		/obj/item/toy/figure/ce,
 		/obj/item/toy/figure/cmo,
-		/obj/item/toy/figure/dsquad,
+		// /obj/item/toy/figure/dsquad, // OCULIS EDIT REMOVAL
 		/obj/item/toy/figure/hop,
 		/obj/item/toy/figure/hos,
 		/obj/item/toy/figure/rd,
@@ -330,7 +330,7 @@ GLOBAL_LIST_INIT(phobia_objs, list(
 		/obj/item/toy/figure/captain,
 		/obj/item/toy/figure/ce,
 		/obj/item/toy/figure/cmo,
-		/obj/item/toy/figure/dsquad,
+		// /obj/item/toy/figure/dsquad, // OCULIS EDIT REMOVAL
 		/obj/item/toy/figure/hop,
 		/obj/item/toy/figure/hos,
 		/obj/item/toy/figure/rd,
