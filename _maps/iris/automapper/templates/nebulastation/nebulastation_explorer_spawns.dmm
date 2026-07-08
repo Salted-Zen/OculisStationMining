@@ -22,13 +22,12 @@
 /turf/open/floor/plating,
 /area/station/cargo/exploration_office)
 "d" = (
-/obj/machinery/atmospherics/components/unary/airlock_pump/unbolt_only{
-	dir = 4
-	},
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/cargo/exploration_office)
 "e" = (
@@ -248,6 +247,9 @@
 	},
 /obj/machinery/light/small/directional/west,
 /obj/structure/sign/warning/directional/west,
+/obj/machinery/atmospherics/components/unary/airlock_pump/unbolt_only{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/cargo/exploration_office)
 "C" = (
