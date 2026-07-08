@@ -90,10 +90,6 @@
 /obj/machinery/recharger,
 /turf/open/floor/iron/smooth_large,
 /area/station/cargo/exploration_office)
-"r" = (
-/obj/structure/lattice,
-/turf/closed/wall,
-/area/station/cargo/exploration_office)
 "s" = (
 /obj/effect/spawner/random/engineering/tracking_beacon,
 /turf/open/floor/iron/smooth_large,
@@ -243,7 +239,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "L" = (
@@ -595,7 +590,7 @@ D
 D
 D
 D
-r
+f
 h
 V
 o
