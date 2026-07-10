@@ -19,7 +19,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/supply/maintenance,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/smooth_large,
-/area/station/cargo/drone_bay)
+/area/station/cargo/exploration_office)
 "e" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -59,12 +59,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/cargo/exploration_office)
-"i" = (
-/turf/closed/wall,
-/area/space)
-"l" = (
-/turf/closed/wall,
-/area/station/maintenance/department/cargo)
 "m" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -209,7 +203,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space/nearstation)
+/area/station/cargo/exploration_office)
 "F" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -292,9 +286,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/cargo/exploration_office)
-"R" = (
-/turf/closed/wall,
-/area/station/cargo/drone_bay)
 "S" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -383,7 +374,7 @@ v
 v
 r
 E
-i
+r
 "}
 (5,1,1) = {"
 r
@@ -460,9 +451,9 @@ x
 (13,1,1) = {"
 P
 M
-R
+r
 c
-R
-l
+r
+r
 r
 "}

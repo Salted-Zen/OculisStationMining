@@ -303,6 +303,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
 /area/station/cargo/exploration_office)
+"W" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/smooth_large,
+/area/station/cargo/exploration_office)
 "X" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -595,7 +599,7 @@ f
 h
 V
 o
-d
+W
 Z
 f
 "}
