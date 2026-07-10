@@ -4,6 +4,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/assistant,
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
 /area/station/common/cryopods)
 "h" = (

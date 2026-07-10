@@ -23264,7 +23264,6 @@
 	pixel_y = 5
 	},
 /obj/item/pen{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /turf/open/floor/glass/reinforced,
@@ -31266,7 +31265,6 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 5;
-	pixel_y = 0;
 	pixel_x = 4
 	},
 /turf/open/openspace,
@@ -56314,7 +56312,6 @@
 /obj/machinery/gateway/centerstation{
 	bound_height = 96;
 	bound_width = 64;
-	bound_x = 0;
 	bound_y = -32;
 	dir = 8
 	},
