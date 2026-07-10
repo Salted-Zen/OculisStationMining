@@ -18,6 +18,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/supply/maintenance,
 /obj/machinery/door/firedoor,
+/obj/effect/landmark/firealarm_sanity,
 /turf/open/floor/iron/smooth_large,
 /area/station/cargo/exploration_office)
 "e" = (
