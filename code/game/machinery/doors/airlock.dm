@@ -1139,9 +1139,11 @@
 		change_paintjob(tool, user)
 		return ITEM_INTERACT_SUCCESS
 
-	if(istype(C, /obj/item/card/id/fake_card)) //IRIS ADDITION: Fake ID as part of https://github.com/Monkestation/MonkeStation/pull/806
-		open_with_fake_card(C, user)
+	// OCULIS EDIT ADDITION START - Fake ID as part of https://github.com/Monkestation/MonkeStation/pull/806
+	if(istype(tool, /obj/item/card/id/fake_card))
+		open_with_fake_card(tool, user)
 		return ITEM_INTERACT_SUCCESS
+	// OCULIS EDIT ADDITION END
 
 	if(istype(tool, /obj/item/door_seal)) //adding the seal
 		var/obj/item/door_seal/airlockseal = tool

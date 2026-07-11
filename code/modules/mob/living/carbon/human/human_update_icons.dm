@@ -1104,50 +1104,16 @@ generate/load female uniform sprites matching all previously decided variables
 	var/static/icon/lenghten_legs_mask = icon('icons/effects/cut.dmi', "Cut4")
 	var/static/icon/lenghten_arms_mask = icon('icons/effects/cut.dmi', "Cut5")
 
-	// IRIS EDIT ADDITION START - Height-based displacement masks.
-	var/static/list/screamed_icons
-	if(isnull(screamed_icons))
-		screamed_icons = list()
-
-	var/list/dims = get_icon_dimensions(appearance.icon)
-	var/icon_width = dims["width"]
-	var/icon_height = dims["height"]
-
-	var/mask_icon = 'icons/effects/cut.dmi'
-	if(icon_width != 0 && icon_height != 0)
-		if(icon_height == 48 && icon_width <= 96)
-			mask_icon = 'modular_iris/icons/effects/cut_96x48.dmi'
-		else if(icon_height == 64 && icon_width <= 64)
-			mask_icon = 'modular_iris/icons/effects/cut_64x64.dmi'
-		else if(icon_height != 32 || icon_width > 32)
-			if(!(appearance.icon in screamed_icons)) // only throw one runtime per icon
-				stack_trace("Bad dimensions (w[icon_width],h[icon_height]) for icon '[appearance.icon]'")
-				screamed_icons += appearance.icon
+	// OCULIS EDIT ADDITION START - Height-based displacement masks.
 
 	// Move the filter up if the image has been moved down, and vice versa
-	var/adjust_y = -appearance.pixel_y - parent_adjust_y
+	var/adjust_y = 0
 
-	var/static/alist/cached_masks = alist()
-	var/list/masks = cached_masks[mask_icon]
-	if(isnull(masks))
-		cached_masks[mask_icon] = masks = list(
-			icon(mask_icon, "Cut1"),
-			icon(mask_icon, "Cut2"),
-			icon(mask_icon, "Cut3"),
-			icon(mask_icon, "Cut4"),
-			icon(mask_icon, "Cut5"),
-		)
-	var/icon/cut_torso_mask = masks[1]
-	var/icon/cut_legs_mask = masks[2]
-	var/icon/lenghten_torso_mask = masks[3]
-	var/icon/lenghten_legs_mask = masks[4]
-	var/icon/lenghten_ankles_mask = masks[5]
-	// IRIS EDIT ADDITION END
+	// OCULIS EDIT ADDITION END
 
 	appearance.remove_filter(list(
 		"Cut_Torso",
 		"Cut_Legs",
-		"Lenghten_Ankles", // IRIS ADDITION
 		"Lenghten_Legs",
 		"Lenghten_Torso",
 		"Lenghten_Arms",
@@ -1262,13 +1228,6 @@ generate/load female uniform sprites matching all previously decided variables
 					"priority" = 1,
 					"params" = displacement_map_filter(lenghten_legs_mask, x = 0, y = adjust_y, size = 1), // IRIS EDIT CHANGE - `y = 0` -> `y = adjust_y`, `size = 1`
 				),
-				// IRIS EDIT ADDITION START - add Lengthen_Ankles filter
-				list(
-					"name" = "Lengthen_Ankles",
-					"priority" = 1,
-					"params" = displacement_map_filter(lenghten_ankles_mask, x = 0, y = adjust_y, size = 1),
-				),
-				// IRIS EDIT ADDITION END
 			))
 
 	// Kinda gross but because many humans overlays do not use KEEP_TOGETHER we need to manually propogate the filter

@@ -201,12 +201,6 @@
 	use_static = FALSE
 	has_custom_digi_sprite = TRUE
 
-/datum/sprite_accessory/clothing/socks/leggings/latex
-	name = "Socks - Latex"
-	icon_state = "socks_latex"
-	erp_accessory = TRUE
-	has_custom_digi_sprite = TRUE
-
 /datum/sprite_accessory/clothing/socks/leggings/stockings
 	name = "Stockings - Recolorable"
 	icon_state = "stockings"
