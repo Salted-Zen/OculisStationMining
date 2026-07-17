@@ -40,10 +40,7 @@ MINER_SHOTGUN "kinetic shotgun" (Slayer / Goliath Hunter)
 CALIBER_GOV_MINING ".45-70 Gov Mining" (Duster / Venator)
 KINETIC_20G "20 Gauge Mining Shell" (Fenrir)
 CALIBER_A762_KINETIC "7.65 Mining" (Hellhound)
-CALIBER_MINER_950 ".950 JDJ Lightning" (Thor)
-
-modular_oculis/modules/saltmining/code/backpacks.dm
-PAIRED_STORAGE_NO_SLOWDOWN 0 (No slowdown for backpacks using this defined value)
+CALIBER_MINER_950 ".950 JDJ Lightning" (Thor)\
 
 ### Included files that are not contained in this module: Please Read
 
