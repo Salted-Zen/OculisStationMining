@@ -1,8 +1,6 @@
 //This file contains the three backpacks made specifically for shaft miners!
 //also includes a new holster, cry about it
 
-#define PAIRED_STORAGE_NO_SLOWDOWN 0
-
 /obj/item/storage/belt/holster/wasteland
 	name = "wasteland gun holster"
 	desc = "A special holster that can carry any wasteland gun, and fits in your suit storage slot or belt!"
