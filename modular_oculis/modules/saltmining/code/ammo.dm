@@ -9,6 +9,13 @@ HELLHOUND LMG
 THOR RIFLE
 */
 
+//DEFINES
+#define MINER_SHOTGUN "Kinetic Shotgun"
+#define CALIBER_GOV_MINING ".45-70 Gov Mining"
+#define KINETIC_20G "20 Gauge Mining Shell"
+#define CALIBER_A762_KINETIC "7.65 Mining"
+#define CALIBER_MINER_950 ".950 JDJ Lightning"
+
 //--------------------------------------------------------------------------//
 //--------------------------------------------------------------------------//
 
@@ -560,3 +567,10 @@ THOR RIFLE
 /obj/item/storage/box/kinetic/minerjdj/PopulateContents() //populate
 
 		new /obj/item/ammo_casing/minerjdj (src)
+
+//UNDEFINES
+#undef MINER_SHOTGUN
+#undef CALIBER_GOV_MINING
+#undef KINETIC_20G
+#undef CALIBER_A762_KINETIC
+#undef CALIBER_MINER_950
