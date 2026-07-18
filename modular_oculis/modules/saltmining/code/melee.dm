@@ -38,7 +38,7 @@
 
 /obj/item/kinetic_crusher/pilebunker/Initialize(mapload)
 	. = ..()
-	AddElement(/datum/element/update_icon_updates_onmob, ITEM_SLOT_HANDS)
+	AddElement(/datum/element/update_icon_updates_onmob)
 	AddComponent(/datum/component/two_handed, force_unwielded=0, force_wielded=force_wielded)
 
 /obj/item/kinetic_crusher/pilebunker/update_reskin(datum/atom_skin/crusher_skin/default_skin_typepath)

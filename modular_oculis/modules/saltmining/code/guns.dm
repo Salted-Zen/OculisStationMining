@@ -198,7 +198,7 @@ THOR RIFLE
 	desc = "A strange shotgun that has been customized and outfitted with non-standard parts. Only accepts 'Slayer' shotgun shells, and has a 4 round tube, totalling 5 shells in the gun at a time."
 	special_desc = "Inside the grip you find a note... \ 'To my dearest sister - It's lonely out here in space, so many stars sit between us and a re-union... I can't stand the cold out here alone, but knowing you are out there waiting for \
 	me is enough to keep me warm enough to keep going. I wish we could be back together in the swamps of Terra, hunting the muddy fiends that lurk beneath. Alas with this many stars between us, there is no telling when we may re-unite, \
-	but just knowing that we will one day fuels me with the strength to keep marching forward. I hope you recieve this, it's a custom design I have been working on just for you, so you may always have me at your side. - Your dearest brother' \
+	but just knowing that we will one day fuels me with the strength to keep marching forward. I hope you receive this, it's a custom design I have been working on just for you, so you may always have me at your side. - Your dearest brother' \
 	It seems the message and the shotgun never made it to his sister..."
 	icon = 'modular_oculis/modules/saltmining/icons/gun_item.dmi'
 	righthand_file = 'modular_oculis/modules/saltmining/icons/gun_right_hand.dmi'
