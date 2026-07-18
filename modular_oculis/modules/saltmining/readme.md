@@ -33,14 +33,14 @@ There is a new define added in a core file, due to its nature it was better to p
 code/\_\_DEFINES/computers.dm (Added the "Wasteland Weapons" Define for categories)
 Change is on lines 14 - This define is used in the core file for mining orders, please see below.
 
-modular_oculis/modules/saltmining/code/ammo.dm
+modular_oculis/modules/saltmining/code/\_saltmining.dm
 This one is in the module, but contains a ton of new defines to add a ton of extra ammo types exclusive for mining guns.
 The list is as follows
 MINER_SHOTGUN "kinetic shotgun" (Slayer / Goliath Hunter)
 CALIBER_GOV_MINING ".45-70 Gov Mining" (Duster / Venator)
 KINETIC_20G "20 Gauge Mining Shell" (Fenrir)
 CALIBER_A762_KINETIC "7.65 Mining" (Hellhound)
-CALIBER_MINER_950 ".950 JDJ Lightning" (Thor)\
+CALIBER_MINER_950 ".950 JDJ Lightning" (Thor)
 
 ### Included files that are not contained in this module: Please Read
 
