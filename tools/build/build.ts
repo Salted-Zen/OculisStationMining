@@ -195,7 +195,7 @@ export const DmMapsIncludeTarget = new Juke.Target({
     const foldersIris = [];
     for (let i = folders.length - 1; i >= 0; i--) {
       const file = folders[i];
-      if (isNovaTemplate(file)) {
+      if (isIrisTemplate(file)) {
         foldersIris.push(file);
         folders.splice(i, 1); // remove from folders
       }
