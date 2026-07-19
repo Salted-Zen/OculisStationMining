@@ -1140,8 +1140,8 @@
 		return ITEM_INTERACT_SUCCESS
 
 	// OCULIS EDIT ADDITION START - Fake ID as part of https://github.com/Monkestation/MonkeStation/pull/806
-	if(istype(C, /obj/item/card/id/fake_card))
-		open_with_fake_card(C, user)
+	if(istype(tool, /obj/item/card/id/fake_card))
+		open_with_fake_card(tool, user)
 		return ITEM_INTERACT_SUCCESS
 	// OCULIS EDIT ADDITION END
 

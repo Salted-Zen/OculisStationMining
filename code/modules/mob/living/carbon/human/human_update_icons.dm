@@ -1219,7 +1219,7 @@ generate/load female uniform sprites matching all previously decided variables
 				list(
 					"name" = "Lenghten_Legs",
 					"priority" = 1,
-					"params" = displacement_map_filter(lenghten_legs_mask, x = 0, y = 0, size = 1),, `size = 1`
+					"params" = displacement_map_filter(lenghten_legs_mask, x = 0, y = 0, size = 1),
 				),
 			))
 

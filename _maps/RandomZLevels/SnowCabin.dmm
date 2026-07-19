@@ -2783,13 +2783,12 @@
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/snowforest)
 "pD" = (
-/obj/structure/reagent_dispensers/beerkeg{
+/obj/effect/spawner/random/food_or_drink/keg{
 	desc = "Hey, SectCom, we located our complimentary case of space beer! The pamphlet didn't lie!";
 	name = "complimentary keg of space beer"
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/reagent_dispensers/keg/beer{

@@ -8,7 +8,6 @@
 
 /mob/living/carbon/human/Destroy()
 	QDEL_NULL(mob_examine_panel)
-	QDEL_NULL(genital_layering_panel)
 
 	if(held_left)
 		held_left.UnregisterSignal(src, COMSIG_ATOM_DIR_CHANGE)

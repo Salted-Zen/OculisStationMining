@@ -39,6 +39,7 @@
 
 	for (var/species_id in (get_selectable_species() + get_customizable_races())) // NOVA EDIT CHANGE - ORIGINAL: for (var/species_id in get_selectable_species())
 		var/species_type = GLOB.species_list[species_id]
+		var/datum/species/species = GLOB.species_prototypes[species_type]
 
 		data[species_id] = list()
 		data[species_id]["name"] = species.name

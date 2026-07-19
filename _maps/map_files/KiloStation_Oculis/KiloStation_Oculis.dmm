@@ -31295,7 +31295,7 @@
 	pixel_x = -7;
 	pixel_y = 8
 	},
-/obj/item/food/grown/watermelon,
+/obj/item/food/grown/melonlike/watermelon,
 /obj/item/food/grown/wheat,
 /obj/item/food/grown/whitebeet,
 /obj/item/food/grown/apple,
@@ -46022,7 +46022,7 @@
 "nSq" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/goldcrate,
+/obj/structure/closet/crate/goldcrate/stocked,
 /obj/item/crowbar/power,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
@@ -64002,7 +64002,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
 "tmV" = (
-/obj/structure/reagent_dispensers/beerkeg{
+/obj/effect/spawner/random/food_or_drink/keg{
 	pixel_y = 5
 	},
 /obj/structure/table/wood,
