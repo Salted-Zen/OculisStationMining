@@ -66,6 +66,9 @@ endmap
 map runtimestation
 endmap
 
+map runtimestation_minimal
+endmap
+
 #Metastation, but with a json set to no space ruins.
 map meta_event
 endmap
