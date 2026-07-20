@@ -5,7 +5,8 @@
 
 /obj/machinery/bluespace_miner
 	name = "bluespace miner"
-	desc = "Through the power of bluespace, it is capable of producing materials."
+	desc = "Through the power of bluespace, it is capable of producing materials if provided a proper operational enviorment. \
+	There is a sticker on the side that has the operational environment guidelines printed on it." //OCULIS EDIT - Original desc - "Through the power of bluespace, it is capable of producing materials." - Expanded desc to be a little nicer
 	icon = 'modular_nova/modules/bluespace_miner/icons/bluespace_miner.dmi'
 	icon_state = "miner"
 
@@ -41,6 +42,22 @@
 	var/focused_item
 
 	COOLDOWN_DECLARE(process_speed)
+
+	//OCULIS EDIT - USED TO DISPLAY A LIST OF ORE NAMES INSTEAD OF TYPE PATHS
+	var/list/ore_names = list(
+		"Iron" = /obj/item/stack/sheet/iron,
+		"Glass" = /obj/item/stack/sheet/glass,
+		"Plasma" = /obj/item/stack/sheet/mineral/plasma,
+		"Silver" = /obj/item/stack/sheet/mineral/silver,
+		"Titanium" = /obj/item/stack/sheet/mineral/titanium,
+		"Uranium" = /obj/item/stack/sheet/mineral/uranium,
+		"Gold" = /obj/item/stack/sheet/mineral/gold,
+		"Diamond" = /obj/item/stack/sheet/mineral/diamond,
+	)
+
+	var/focus_display = "Nothing" //used to show what the current focused ore is
+
+	//OCULIS EDIT END
 
 /obj/machinery/bluespace_miner/RefreshParts()
 	. = ..()
@@ -83,6 +100,15 @@
 
 /obj/machinery/bluespace_miner/examine(mob/user)
 	. = ..()
+	//OCULIS EDIT START - add operational conditions to examine
+	. += span_notice("\nThe miner's focus mode is currently set to : <b>[focus_display]</b>.")
+
+	. += span_notice("\nFor optimal operations, environment should meet the following conditions.")
+	. += span_notice("<b>Environment temperature must be below 20*C</b>.")
+	. += span_notice("<b>Environment pressure must be between 101.325Kpa to 151.9875Kpa</b>.")
+	. += span_notice("<b>Miner must NOT be adjacent to other miners.</b>\n")
+	//OCULIS EDIT END
+
 	if(obj_flags & EMAGGED)
 		. += span_warning("The safeties are turned off!")
 
@@ -171,13 +197,18 @@
 	if(focused_item)
 		ore_chance[focused_item] /= 3
 		focused_item = null
+		focus_display = "Nothing" //OCULIS EDIT - PURGE THE DISPLAY FOR FOCUS MODE
 		balloon_alert(user, "removed focus mode")
 		return TRUE
-
-	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_chance)
+	//OCULIS EDIT START - ORIGINAL : ore_chance - EDIT : ore_names - THIS GIVES YOU A LIST OF ACTUAL NAMES INSTEAD OF TYPE PATHS
+	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names)
 	if(isnull(choice))
 		return FALSE
-
+	focus_display = choice //OCULIS EDIT - Save the name of the selection so we can display it before we convert it to Typepath format
+	choice = ore_names[choice] //OCULIS EDIT - Selection becomes Typepath
+	if(isnull(choice))
+		return FALSE
+	//OCULIS EDIT END
 	ore_chance[choice] *= 3
 	focused_item = choice
 	balloon_alert(user, "added focus mode")
