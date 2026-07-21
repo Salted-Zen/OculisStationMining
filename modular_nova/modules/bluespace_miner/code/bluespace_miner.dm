@@ -202,7 +202,8 @@
 	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names) //OCULIS EDIT, ORIGINAL : var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_chance)
 	if(isnull(choice))
 		return FALSE
-	focus_display = choice //OCULIS EDIT - Save the name of the selection so we can display it before we convert it to Typepath format
+	// OCULIS EDIT ADDITION START
+	focus_display = choice
 	choice = ore_names[choice] //OCULIS EDIT - Selection becomes Typepath
 	if(isnull(choice))
 		return FALSE
