@@ -236,10 +236,16 @@
 	base_icon_state = "medicalcrate"
 
 /obj/structure/closet/crate/deforest
-	name = "deforest medical crate"
+	name = "\improper DeForest Medical crate"
 	desc = "A DeForest brand crate of medical supplies."
 	icon_state = "deforest"
 	base_icon_state = "deforest"
+
+/obj/structure/closet/crate/interdyne_normal
+	name = "\improper Interdyne Pharmaceutics crate"
+	desc = "An Interdyne Pharmaceutics brand crate. Probably contains helpful chemicals? Hopefully contains helpful chemicals."
+	icon_state = "interdynecrate"
+	base_icon_state = "interdynecrate"
 
 /obj/structure/closet/crate/medical/department
 	icon_state = "medical"
@@ -286,6 +292,7 @@
 	new /obj/item/reagent_containers/blood/o_plus(src)
 	new /obj/item/reagent_containers/blood/lizard(src)
 	new /obj/item/reagent_containers/blood/ethereal(src)
+	new /obj/item/reagent_containers/blood/insect(src) // OCULIS EDIT ADDITION
 	for(var/i in 1 to 3)
 		new /obj/item/reagent_containers/blood/random(src)
 	new /obj/item/paper/fluff/jobs/medical/blood_types(src)
@@ -350,7 +357,7 @@
 	base_icon_state = "hydrocrate"
 
 /obj/structure/closet/crate/centcom
-	name = "centcom crate"
+	name = "SectCom crate" // OCULIS EDIT, SectCommening 2, ORIGINAL: name = "centcom crate"
 	icon_state = "centcom"
 	base_icon_state = "centcom"
 
