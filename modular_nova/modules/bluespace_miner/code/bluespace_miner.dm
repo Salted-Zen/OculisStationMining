@@ -100,14 +100,8 @@
 
 /obj/machinery/bluespace_miner/examine(mob/user)
 	. = ..()
-	//OCULIS EDIT START - add operational conditions to examine
-	. += span_notice("\nThe miner's focus mode is currently set to : <b>[focus_display]</b>.")
 
-	. += span_notice("\nFor optimal operations, environment should meet the following conditions.")
-	. += span_notice("<b>Environment temperature must be below 20*C</b>.")
-	. += span_notice("<b>Environment pressure must be between 101.325Kpa to 151.9875Kpa</b>.")
-	. += span_notice("<b>Miner must NOT be adjacent to other miners.</b>\n")
-	//OCULIS EDIT END
+	. += span_notice("\nThe miner's focus mode is currently set to : <b>[focus_display]</b>.")	//OCULIS EDIT - Shows what the focus mode is currently set to!
 
 	if(obj_flags & EMAGGED)
 		. += span_warning("The safeties are turned off!")
@@ -116,16 +110,20 @@
 	if(mining_stat)
 		if(mining_stat & BLUESPACE_MINER_TOO_CLOSE)
 			. += span_warning("[src] is in a suboptimal environment: TOO CLOSE TO ANOTHER BLUESPACE MINER")
+			. += span_warning("\n<b>Miner must NOT be adjacent to other miners.</b>\n") //OCULIS EDIT - Tells you what you need exactly to fix it
 			return . // This needs relocation to fix so we won't bother with the rest
 
 		if(mining_stat & BLUESPACE_MINER_TOO_HOT)
 			. += span_warning("[src] is in a suboptimal environment: " + span_boldwarning("TEMPERATURE TOO HIGH!"))
+			. += span_warning("\n<b>Environment temperature must be below 293.15 Kelvin</b>.") //OCULIS EDIT - Tells you what you need exactly to fix it
 
 		if(mining_stat & BLUESPACE_MINER_LOW_PRESSURE)
 			. += span_warning("[src] is in a suboptimal environment: " + span_boldwarning("PRESSURE TOO LOW!"))
+			. += span_warning("\n<b>Environment pressure must be between 101.32 kPa to 151.98 kPa</b>.") //OCULIS EDIT - Tells you what you need exactly to fix it
 
 		else if(mining_stat & BLUESPACE_MINER_HIGH_PRESSURE)
 			. += span_warning("[src] is in a suboptimal environment: " + span_boldwarning("PRESSURE TOO HIGH!"))
+			. += span_warning("\n<b>Environment pressure must be between 101.32 kPa to 151.98 kPa</b>.") //OCULIS EDIT - Tells you what you need exactly to fix it
 
 
 //we need to make sure we can actually print the ores out
