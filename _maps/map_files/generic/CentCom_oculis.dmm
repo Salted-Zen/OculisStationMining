@@ -14614,7 +14614,6 @@
 /area/centcom/castor/engineering/security_post)
 "kKW" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/porta_turret/black_mesa/heavy,
 /turf/open/floor/engine,
 /area/centcom/central_command_areas/hallway)
 "kLD" = (
@@ -25120,11 +25119,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod)
-"uvq" = (
-/obj/machinery/porta_turret/black_mesa/heavy,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/engine,
-/area/centcom/central_command_areas/hallway)
 "uwa" = (
 /turf/closed/indestructible/steel,
 /area/centcom/castor/hallway_four)
@@ -26070,7 +26064,6 @@
 /area/centcom/holding/cafe)
 "vkL" = (
 /obj/machinery/light/directional/south,
-/obj/machinery/porta_turret/black_mesa/heavy,
 /turf/open/floor/engine,
 /area/centcom/castor/sectorial_security_administrator)
 "vlf" = (
@@ -39704,9 +39697,9 @@ iyV
 fRP
 pff
 uFc
-uvq
+kKW
 vHK
-uvq
+kKW
 uFc
 uFc
 aaa
