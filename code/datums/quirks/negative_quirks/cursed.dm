@@ -19,12 +19,6 @@
 		on_death = CALLBACK(src, PROC_REF(on_death)), \
 	)
 
-// OCULIS EDIT ADDITION BEGIN - COGNOMERGE_EVENT - Prevents people from becoming permanently cursed if the extreme cognomerge event rolls it
-/datum/quirk/cursed/remove(client/client_source)
-	var/datum/component/omen/quirk/omen_to_destroy = quirk_holder.GetExactComponent(/datum/component/omen/quirk)
-	omen_to_destroy.Destroy()
-// OCULIS EDIT ADDITION END
-
 /datum/quirk/cursed/proc/on_death(datum/component/omen/omen)
 	return // OCULIS EDIT ADDITION
 /* // OCULIS EDIT REMOVAL START

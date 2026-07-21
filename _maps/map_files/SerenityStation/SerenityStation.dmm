@@ -36714,7 +36714,6 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 8
 	},
-/obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -75812,8 +75811,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/item/storage/box/prisoner{
-	pixel_x = -15;
-	pixel_y = 0
+	pixel_x = -15
 	},
 /turf/open/floor/iron,
 /area/station/security/execution/transfer)

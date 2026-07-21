@@ -13375,6 +13375,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/item/radio/intercom/directional/south,
 /obj/machinery/firealarm/directional/north,
+/obj/effect/landmark/firealarm_sanity,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/xenobiology/hallway)
 "eGN" = (
@@ -14925,6 +14926,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/wood,
 /area/station/commons/lounge)
 "fne" = (
@@ -39884,6 +39886,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/west{
+	pixel_y = -4
+	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/xenobiology/hallway)
 "nLi" = (
@@ -61633,6 +61638,13 @@
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
+"vfi" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/wood/tile,
+/area/station/service/bar)
 "vfq" = (
 /obj/structure/railing{
 	dir = 9
@@ -61826,6 +61838,9 @@
 "viT" = (
 /obj/machinery/camera/autoname/directional/west{
 	network = list("ss13","rd","xeno")
+	},
+/obj/machinery/firealarm/directional/west{
+	pixel_y = -4
 	},
 /turf/open/floor/iron/white/smooth_half{
 	dir = 8
@@ -67276,6 +67291,17 @@
 /obj/structure/rack,
 /turf/open/floor/plating,
 /area/station/asteroid)
+"xbn" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/arrow_ccw,
+/obj/effect/turf_decal/trimline/purple/filled/arrow_ccw{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/firealarm_sanity,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/science/xenobiology/hallway)
 "xbr" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/glass/reinforced,
@@ -163749,7 +163775,7 @@ etB
 nfx
 kDC
 hCs
-gcN
+vfi
 hWG
 rDg
 rDg
@@ -182247,7 +182273,7 @@ hhX
 hhX
 hhX
 sqL
-uoY
+xbn
 sqL
 fYe
 fYe
