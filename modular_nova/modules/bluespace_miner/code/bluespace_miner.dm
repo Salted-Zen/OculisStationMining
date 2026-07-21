@@ -204,7 +204,7 @@
 		return FALSE
 	// OCULIS EDIT ADDITION START
 	focus_display = choice
-	choice = ore_names[choice] //OCULIS EDIT - Selection becomes Typepath
+	choice = ore_names[choice]
 	if(isnull(choice))
 		return FALSE
 	//OCULIS EDIT ADDITION END
