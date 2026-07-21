@@ -199,7 +199,7 @@
 		balloon_alert(user, "removed focus mode")
 		return TRUE
 	//OCULIS EDIT START - ORIGINAL : ore_chance - EDIT : ore_names - THIS GIVES YOU A LIST OF ACTUAL NAMES INSTEAD OF TYPE PATHS
-	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names)
+	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names) //OCULIS EDIT, ORIGINAL : var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_chance)
 	if(isnull(choice))
 		return FALSE
 	focus_display = choice //OCULIS EDIT - Save the name of the selection so we can display it before we convert it to Typepath format
