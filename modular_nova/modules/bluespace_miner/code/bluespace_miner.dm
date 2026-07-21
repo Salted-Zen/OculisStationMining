@@ -207,7 +207,7 @@
 	choice = ore_names[choice] //OCULIS EDIT - Selection becomes Typepath
 	if(isnull(choice))
 		return FALSE
-	//OCULIS EDIT END
+	//OCULIS EDIT ADDITION END
 	ore_chance[choice] *= 3
 	focused_item = choice
 	balloon_alert(user, "added focus mode")
