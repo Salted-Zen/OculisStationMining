@@ -101,7 +101,7 @@
 
 		if(mining_stat & BLUESPACE_MINER_TOO_HOT)
 			. += span_warning("[src] is in a suboptimal environment: " + span_boldwarning("TEMPERATURE TOO HIGH!"))
-			. += span_warning("\n<b>Environment temperature must be below 293.15 Kelvin</b>.") //OCULIS EDIT - Tells you what you need exactly to fix it
+			. += span_warning("\n<b>Environment temperature must be below 293.15 Kelvin</b>.") // OCULIS EDIT ADDITION - Tells you what you need exactly to fix it
 
 		if(mining_stat & BLUESPACE_MINER_LOW_PRESSURE)
 			. += span_warning("[src] is in a suboptimal environment: " + span_boldwarning("PRESSURE TOO LOW!"))
