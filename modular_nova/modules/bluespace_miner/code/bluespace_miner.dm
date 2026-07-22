@@ -96,7 +96,7 @@
 	if(mining_stat)
 		if(mining_stat & BLUESPACE_MINER_TOO_CLOSE)
 			. += span_warning("[src] is in a suboptimal environment: TOO CLOSE TO ANOTHER BLUESPACE MINER")
-			. += span_warning("\n<b>Miner must NOT be adjacent to other miners.</b>\n") //OCULIS EDIT - Tells you what you need exactly to fix it
+			. += span_warning("\n<b>Miner must NOT be adjacent to other miners.</b>\n") // OCULIS EDIT ADDITION - Tells you what you need exactly to fix it
 			return . // This needs relocation to fix so we won't bother with the rest
 
 		if(mining_stat & BLUESPACE_MINER_TOO_HOT)
