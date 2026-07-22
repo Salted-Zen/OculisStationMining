@@ -87,7 +87,7 @@
 /obj/machinery/bluespace_miner/examine(mob/user)
 	. = ..()
 
-	. += span_notice("\nThe miner's focus mode is currently set to : <b>[focus_display]</b>.")	//OCULIS EDIT - Shows what the focus mode is currently set to!
+	. += span_notice("\nThe miner's focus mode is currently set to : <b>[focus_display]</b>.")	// OCULIS EDIT ADDITION - Shows what the focus mode is currently set to!
 
 	if(obj_flags & EMAGGED)
 		. += span_warning("The safeties are turned off!")
