@@ -72,7 +72,7 @@
 	dir = 4
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/station/hallway/secondary/entry)
 
 (1,1,1) = {"
 Vt

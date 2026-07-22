@@ -18,7 +18,7 @@
 "N" = (
 /obj/machinery/atmospherics/components/unary/delam_scram/directional/east,
 /turf/template_noop,
-/area/template_noop)
+/area/station/engineering/supermatter/engine)
 "Y" = (
 /obj/structure/sign/delam_procedure,
 /turf/closed/wall/r_wall,
