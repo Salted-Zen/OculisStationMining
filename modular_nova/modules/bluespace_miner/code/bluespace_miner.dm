@@ -189,7 +189,9 @@
 	if(!length(ore_names))
 		for(var/ore in ore_chance)
 			ore_names[initial(ore:name)] = ore
-	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names) //OCULIS EDIT, ORIGINAL : var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_chance)
+	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names) 
+	// OCULIS EDIT ADDITION END
+	// var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_chance) // OCULIS EDIT REMOVAL
 	if(isnull(choice))
 		return FALSE
 	//OCULIS EDIT ADDITION START
