@@ -118,6 +118,11 @@
 	dir = 10
 	},
 /obj/machinery/firealarm/directional/south,
+/obj/machinery/camera/directional/south{
+	c_tag = "Mining Dock";
+	name = "cargo camera";
+	network = list("ss13","qm")
+	},
 /turf/open/floor/engine,
 /area/station/cargo/exploration_office)
 "o" = (
