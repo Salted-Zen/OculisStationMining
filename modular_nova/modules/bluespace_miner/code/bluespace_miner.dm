@@ -181,7 +181,7 @@
 	if(focused_item)
 		ore_chance[focused_item] /= 3
 		focused_item = null
-		focus_display = "Nothing" //OCULIS EDIT - PURGE THE DISPLAY FOR FOCUS MODE
+		focus_display = "Nothing" //OCULIS EDIT ADDITION
 		balloon_alert(user, "removed focus mode")
 		return TRUE
 	//OCULIS EDIT ADDITION START
