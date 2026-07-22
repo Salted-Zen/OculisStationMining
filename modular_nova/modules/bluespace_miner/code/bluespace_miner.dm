@@ -109,7 +109,7 @@
 
 		else if(mining_stat & BLUESPACE_MINER_HIGH_PRESSURE)
 			. += span_warning("[src] is in a suboptimal environment: " + span_boldwarning("PRESSURE TOO HIGH!"))
-			. += span_warning("\n<b>Environment pressure must be between 101.32 kPa to 151.98 kPa</b>.") //OCULIS EDIT - Tells you what you need exactly to fix it
+			. += span_warning("\n<b>Environment pressure must be between 101.32 kPa to 151.98 kPa</b>.") //OCULIS EDIT ADDITION - Tells you what you need exactly to fix it
 
 
 //we need to make sure we can actually print the ores out
