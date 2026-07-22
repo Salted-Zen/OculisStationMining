@@ -79,8 +79,8 @@
 	energy_rating = 20
 	custom_materials = list(
 		/datum/material/iron = SMALL_MATERIAL_AMOUNT * 3.3,
-		/datum/material/diamond = SMALL_MATERIAL_AMOUNT * 2.1,
-		/datum/material/bluespace = SMALL_MATERIAL_AMOUNT * 1.5,
+		/datum/material/bluespace = SMALL_MATERIAL_AMOUNT * 2.1,
+		/datum/material/diamond  = SMALL_MATERIAL_AMOUNT * 1.5,
 	)
 
 /datum/stock_part/matter_bin/tier5
