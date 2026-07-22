@@ -184,7 +184,7 @@
 		focus_display = "Nothing" //OCULIS EDIT - PURGE THE DISPLAY FOR FOCUS MODE
 		balloon_alert(user, "removed focus mode")
 		return TRUE
-	//OCULIS EDIT START - ORIGINAL : ore_chance - EDIT : ore_names - THIS GIVES YOU A LIST OF ACTUAL NAMES INSTEAD OF TYPE PATHS
+	//OCULIS EDIT ADDITION START
 	var/static/list/ore_names = list()
 	if(!length(ore_names))
 		for(var/ore in ore_chance)
