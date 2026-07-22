@@ -43,21 +43,7 @@
 
 	COOLDOWN_DECLARE(process_speed)
 
-	//OCULIS EDIT - USED TO DISPLAY A LIST OF ORE NAMES INSTEAD OF TYPE PATHS
-	var/list/ore_names = list(
-		"Iron" = /obj/item/stack/sheet/iron,
-		"Glass" = /obj/item/stack/sheet/glass,
-		"Plasma" = /obj/item/stack/sheet/mineral/plasma,
-		"Silver" = /obj/item/stack/sheet/mineral/silver,
-		"Titanium" = /obj/item/stack/sheet/mineral/titanium,
-		"Uranium" = /obj/item/stack/sheet/mineral/uranium,
-		"Gold" = /obj/item/stack/sheet/mineral/gold,
-		"Diamond" = /obj/item/stack/sheet/mineral/diamond,
-	)
-
-	var/focus_display = "Nothing" //used to show what the current focused ore is
-
-	//OCULIS EDIT END
+	var/focus_display = "Nothing" //OCULIS EDIT - used to show what the current focused ore is
 
 /obj/machinery/bluespace_miner/RefreshParts()
 	. = ..()
@@ -199,14 +185,15 @@
 		balloon_alert(user, "removed focus mode")
 		return TRUE
 	//OCULIS EDIT START - ORIGINAL : ore_chance - EDIT : ore_names - THIS GIVES YOU A LIST OF ACTUAL NAMES INSTEAD OF TYPE PATHS
+	var/static/list/ore_names = list()
+	if(!length(ore_names))
+		for(var/ore in ore_chance)
+			ore_names[initial(ore:name)] = ore
 	var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_names) //OCULIS EDIT, ORIGINAL : var/choice = tgui_input_list(user, "Which would you like to triple?", "Focus Mode", ore_chance)
 	if(isnull(choice))
 		return FALSE
-	// OCULIS EDIT ADDITION START
 	focus_display = choice
 	choice = ore_names[choice]
-	if(isnull(choice))
-		return FALSE
 	//OCULIS EDIT ADDITION END
 	ore_chance[choice] *= 3
 	focused_item = choice
