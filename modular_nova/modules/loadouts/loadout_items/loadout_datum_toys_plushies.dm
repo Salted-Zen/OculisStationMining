@@ -122,9 +122,6 @@
 	name = "Suspicious Musical moth"
 	item_path = /obj/item/instrument/musicalduffy
 
-/datum/loadout_item/toys/plush/securifox
-	name = "Securifox Plushie"
-	item_path = /obj/item/toy/plush/nova/securifox
 
 /*
 *	STAFF
