@@ -43,7 +43,7 @@
 
 	COOLDOWN_DECLARE(process_speed)
 
-	var/focus_display = "Nothing" //OCULIS EDIT - used to show what the current focused ore is
+	var/focus_display = "Nothing" // OCULIS EDIT ADDITION - used to show what the current focused ore is
 
 /obj/machinery/bluespace_miner/RefreshParts()
 	. = ..()
