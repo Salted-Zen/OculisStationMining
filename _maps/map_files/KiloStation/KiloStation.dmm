@@ -24195,7 +24195,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/structure/sign/poster/official/enlist/directional/east,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "hKQ" = (
@@ -74460,15 +74459,6 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron/showroomfloor,
 /area/station/science/ordnance)
-"xym" = (
-/obj/structure/sign/poster/official/enlist/directional/south,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red/half/contrasted,
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/iron,
-/area/station/hallway/primary/aft)
 "xyp" = (
 /obj/structure/rack,
 /obj/item/plant_analyzer,
@@ -102292,7 +102282,7 @@ jRm
 taU
 ayY
 nVK
-xym
+wWm
 gmG
 gmG
 pDM
